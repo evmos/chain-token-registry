@@ -1,0 +1,56 @@
+{
+  "prefix": "emoney",
+  "gasPriceStop": {
+    "low": "0.005",
+    "average": "0.025",
+    "high": "0.04"
+  },
+  "configurations": [
+    {
+      "chainId": "emoney-3",
+      "chainName": "EMoney",
+      "clientId": "07-tendermint-75",
+      "rest": "https://lcd-emoney.keplr.app",
+      "rpc": "https://rpc-emoney.keplr.app",
+      "bip44": {
+        "coinType": "118"
+      },
+      "currencies": [
+        {
+          "coinDenom": "emd",
+          "coinMinDenom": "eeur",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-28",
+        "destinationChannel": "channel-24",
+        "jsonRPC": "https://rpc-emoney.keplr.app"
+      },
+      "configurationType": "mainnet"
+    },
+    {
+      "chainId": "",
+      "chainName": "",
+      "clientId": "",
+      "rest": "",
+      "rpc": "",
+      "bip44": {
+        "coinType": "118"
+      },
+      "currencies": [
+        {
+          "coinDenom": "",
+          "coinMinDenom": "",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-",
+        "destinationChannel": "channel-",
+        "jsonRPC": ""
+      },
+      "configurationType": "testnet"
+    }
+  ]
+}

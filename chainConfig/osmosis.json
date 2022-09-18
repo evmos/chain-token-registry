@@ -1,0 +1,53 @@
+{
+  "prefix": "osmo",
+  "gasPriceStop": {
+    "low": "0.005",
+    "average": "0.025",
+    "high": "0.04"
+  },
+  "bip44": {
+    "coinType": "118"
+  },
+  "configurations": [
+    {
+      "chainId": "osmosis-1",
+      "chainName": "Osmosis",
+      "clientId": "07-tendermint-0",
+      "rest": "https://lcd.osmosis.zone",
+      "rpc": "",
+      "currencies": [
+        {
+          "coinDenom": "OSMO",
+          "coinMinDenom": "uosmo",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-204",
+        "destinationChannel": "channel-0",
+        "jsonRPC": "https://rpc-osmosis.blockapsis.com/"
+      },
+      "configurationType": "mainnet"
+    },
+    {
+      "chainId": "osmo-test-4",
+      "chainName": "Osmosis Testnet",
+      "clientId": "07-tendermint-3",
+      "rest": "https://osmosis-api.evmos.dev/",
+      "rpc": "https://osmosis-grpc.evmos.dev",
+      "currencies": [
+        {
+          "coinDenom": "OSMO",
+          "coinMinDenom": "uosmo",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-227",
+        "destinationChannel": "channel-7",
+        "jsonRPC": "https://osmosis-rpc.evmos.dev/"
+      },
+      "configurationType": "testnet"
+    }
+  ]
+}

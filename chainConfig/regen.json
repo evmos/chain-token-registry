@@ -1,0 +1,33 @@
+{
+  "prefix": "regen",
+  "gasPriceStop": {
+    "low": "0.005",
+    "average": "0.025",
+    "high": "0.04"
+  },
+  "configurations": [
+    {
+      "chainId": "regen-1",
+      "chainName": "Regen Network",
+      "clientId": "07-tendermint-67",
+      "rest": "https://rest-regen.ecostake.com",
+      "rpc": "https://rpc-regen.ecostake.com",
+      "bip44": {
+        "coinType": "118"
+      },
+      "currencies": [
+        {
+          "coinDenom": "REGEN",
+          "coinMinDenom": "uregen",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-44",
+        "destinationChannel": "channel-20",
+        "jsonRPC": "https://rpc-regen.ecostake.com"
+      },
+      "configurationType": "mainnet"
+    }
+  ]
+}

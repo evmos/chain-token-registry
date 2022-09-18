@@ -1,0 +1,33 @@
+{
+  "prefix": "stars",
+  "gasPriceStop": {
+    "low": "0.005",
+    "average": "0.025",
+    "high": "0.04"
+  },
+  "configurations": [
+    {
+      "chainId": "stargaze-1",
+      "chainName": "Stargaze",
+      "clientId": "07-tendermint-41",
+      "rest": "https://rest.stargaze-apis.com/",
+      "rpc": "https://rpc.stargaze-apis.com/",
+      "bip44": {
+        "coinType": "118"
+      },
+      "currencies": [
+        {
+          "coinDenom": "STARS",
+          "coinMinDenom": "ustars",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-46",
+        "destinationChannel": "channel-13",
+        "jsonRPC": "stargaze-grpc.polkachu.com:13790"
+      },
+      "configurationType": "mainnet"
+    }
+  ]
+}

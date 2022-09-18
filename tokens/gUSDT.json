@@ -1,0 +1,20 @@
+{
+  "coinDenom": "gUSDT",
+  "minCoinDenom": "uusdt",
+  "imgSrc": "",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdt.png",
+  "type": "ERC-20",
+  "exponent": "6",
+  "cosmosDenom": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
+  "description": "Tether USD via Gravity Bridge",
+  "name": "Tether USD",
+  "channel": "channel-8",
+  "isEnabled": true,
+  "erc20_address": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
+  "ibc": {
+    "sourceDenom": "gravity0x6c9E3E437b0F06C5366fAE4ea4e6cd6fB1803BdF",
+    "source": "Gravity"
+  },
+  "hideFromTestnet": true,
+  "coingeckoId": "tether"
+}

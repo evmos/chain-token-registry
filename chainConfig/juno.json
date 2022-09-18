@@ -1,0 +1,56 @@
+{
+  "prefix": "juno",
+  "gasPriceStop": {
+    "low": "0.03",
+    "average": "0.04",
+    "high": "0.05"
+  },
+  "configurations": [
+    {
+      "chainId": "juno-1",
+      "chainName": "Juno",
+      "clientId": "07-tendermint-14",
+      "rest": "https://lcd-juno.whispernode.com",
+      "rpc": "https://rpc-juno.whispernode.com",
+      "bip44": {
+        "coinType": "118"
+      },
+      "currencies": [
+        {
+          "coinDenom": "JUNO",
+          "coinMinDenom": "ujuno",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-70",
+        "destinationChannel": "channel-5",
+        "jsonRPC": "https://rpc-juno.whispernode.com"
+      },
+      "configurationType": "mainnet"
+    },
+    {
+      "chainId": "",
+      "chainName": "",
+      "clientId": "",
+      "rest": "",
+      "rpc": "",
+      "bip44": {
+        "coinType": "118"
+      },
+      "currencies": [
+        {
+          "coinDenom": "",
+          "coinMinDenom": "",
+          "coinDecimals": ""
+        }
+      ],
+      "source": {
+        "sourceChannel": "",
+        "destinationChannel": "channel-",
+        "jsonRPC": ""
+      },
+      "configurationType": "testnet"
+    }
+  ]
+}
