@@ -1,0 +1,123 @@
+{
+  "$id": "https://evmos.org/schema.token.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Chain Registry via Evmos Governance",
+  "type": "object",
+  "properties": {
+    "required": ["gasPriceStep", "prefix", "bip44"],
+    "prefix": {
+      "type": "string",
+      "description": "Chain prefix i.e. evmos"
+    },
+    "gasPriceStep": {
+      "type": "object",
+      "required": ["low", "average", "high"],
+      "properties": {
+        "low": {
+          "type": "string",
+          "description": "Amount of gas for Low"
+        },
+        "average": {
+          "type": "string",
+          "description": "Amount of gas for Average"
+        },
+        "high": {
+          "type": "string",
+          "description": "Amount of gas for High"
+        },
+        "required": ["low", "medium", "high"]
+      }
+    },
+    "bip44": {
+      "type": "object",
+      "properties": {
+        "coinType": {
+          "type": "string",
+          "description": "Cosmos-based chains should be 118 while EVM-based chains are coin type 60"
+        }
+      }
+    },
+    "configurations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "chainId",
+          "chainName",
+          "clientId",
+          "rest",
+          "rpc",
+          "currencies",
+          "source",
+          "configurationType"
+        ],
+        "properties": {
+          "chainId": {
+            "type": "string",
+            "description": "Chain ID should specific to the environment, i.e. Testnet and Mainnet are different"
+          },
+          "chainName": {
+            "type": "string",
+            "description": "Name of the chain specific to the environment, i.e. Evmos Testnet"
+          },
+          "clientId": {
+            "type": "string",
+            "description": "Query the 'evmosd query ibc channel client-state [port-id] [channel-id] [flags]' and copy over the client-id field"
+          },
+          "rpc": {
+            "type": "string",
+            "description": "RPC endpoint link, usually port 1317 or LCD"
+          },
+          "rest": {
+            "type": "string",
+            "description": "REST endpoint link"
+          },
+
+          "currencies": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "coinDenom": {
+                  "type": "string",
+                  "description": "Unit of the coin or symbol, i.e. EVMOS"
+                },
+                "coinMinDenom": {
+                  "type": "string",
+                  "description": "Smallest unit of the coin, i.e. aevmos"
+                },
+                "coinDecimals": {
+                  "type": "string",
+                  "description": "Chain minimum coin denomination, i.e. aevmos"
+                }
+              }
+            }
+          },
+          "source": {
+            "type": "object",
+            "required": ["sourceChannel", "jsonRPC"],
+            "properties": {
+              "sourceChannel": {
+                "type": "string",
+                "description": "Source channel represents the third-party, i.e. Cosmos Hub side"
+              },
+              "destinationChannel": {
+                "type": "string",
+                "description": "Destination channel represents the main network side, i.e. EVMOS side"
+              },
+              "jsonRPC": {
+                "type": "string",
+                "description": "Tendermint endpoint link or using port 26657"
+              }
+            }
+          },
+          "configurationType": {
+            "type": "string",
+            "enum": ["mainnet", "testnet"],
+            "description": "Must select either mainnet or testnet"
+          }
+        }
+      }
+    }
+  }
+}

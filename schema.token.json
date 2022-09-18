@@ -1,0 +1,93 @@
+{
+  "$id": "https://evmos.org/schema.token.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Token Schema Registry via Evmos Governance",
+  "type": "object",
+  "properties": {
+    "coinDenom": {
+      "type": "string",
+      "description": "Coin denom representation, i.e BTC "
+    },
+    "minCoinDenom": {
+      "type": "string",
+      "description": "Minimal coin denom, i.e. satoshi for Bitcoin"
+    },
+    "imgSrc": {
+      "type": "string",
+      "description": "Link must be SVG link only"
+    },
+    "pngSrc": {
+      "type": "string",
+      "description": "Link must be png source"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["IBC", "ERC-20", "CW20"]
+    },
+    "exponent": {
+      "type": "string"
+    },
+    "cosmosDenom": {
+      "type": "string",
+      "description": "Starting with ibc/..."
+    },
+    "description": {
+      "type": "string",
+      "description": "Coin description goes here. This description will be used to describe the coin to the user. Please keep it concise."
+    },
+    "name": {
+      "type": "string",
+      "description": "Official name of the coin, i.e. EVMOS"
+    },
+    "channel": {
+      "type": "string",
+      "description": "Channel must be active. Check https://www.mintscan.io/evmos/relayers and find the right network to see which channel is open on both ends. The value wanted here is the From side of Evmos."
+    },
+    "isEnabled": {
+      "type": "boolean",
+      "default": true,
+      "description": "Default to true"
+    },
+    "erc20Address": {
+      "type": "string",
+      "description": "Hex address only, i.e. 0x"
+    },
+    "ibc": {
+      "type": "object",
+      "properties": {
+        "sourceDenom": {
+          "type": "string",
+          "description": "There are two states for sourceDenom. Main chain coins like EVMOS will have their minCoinDenom listed here, however, coins from that ecosystem other than the main coin will require its prefix+hexAddress, i.e. gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 for Gravity's USDC.grv"
+        },
+        "source": {
+          "type": "string",
+          "description": "Chain name, i.e. Cosmos or Osmosis"
+        }
+      }
+    },
+    "hideFromTestnet": {
+      "type": "boolean",
+      "default": false,
+      "description": "If network does not have testnet and the coin is not in the testnet via governance or other means, mark this as true, otherwise, leave as is."
+    },
+    "coingeckoId": {
+      "type": "string",
+      "description": "Official string coingecko uses to search and load the asset. Please insure the text matches exactly."
+    }
+  },
+  "required": [
+    "coinDenom",
+    "minCoinDenom",
+    "imgSrc",
+    "pngSrc",
+    "type",
+    "exponent",
+    "cosmosDenom",
+    "description",
+    "name",
+    "channel",
+    "erc20Address",
+    "ibc",
+    "coingeckoId"
+  ]
+}
