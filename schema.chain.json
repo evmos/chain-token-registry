@@ -30,6 +30,7 @@
     },
     "bip44": {
       "type": "object",
+      "required": ["coinType"],
       "properties": {
         "coinType": {
           "type": "string",
@@ -66,7 +67,7 @@
           },
           "rpc": {
             "type": "string",
-            "description": "RPC endpoint link, usually port 1317 or LCD"
+            "description": "RPC endpoint link, usually port 1317"
           },
           "rest": {
             "type": "string",
@@ -95,7 +96,7 @@
           },
           "source": {
             "type": "object",
-            "required": ["sourceChannel", "jsonRPC"],
+            "required": ["sourceChannel", "destinationChannel", "jsonRPC"],
             "properties": {
               "sourceChannel": {
                 "type": "string",

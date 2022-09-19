@@ -1,6 +1,6 @@
 {
   "prefix": "gravity",
-  "gasPriceStop": {
+  "gasPriceStep": {
     "low": "0.000",
     "average": "0.000",
     "high": "0.035"

@@ -1,9 +1,12 @@
 {
   "prefix": "axelar",
-  "gasPriceStop": {
+  "gasPriceStep": {
     "low": "0.00005",
     "average": "0.00025",
     "high": "0.0004"
+  },
+  "bip44": {
+    "coinType": "118"
   },
   "configurations": [
     {
@@ -12,9 +15,6 @@
       "clientId": "",
       "rest": "https://axelar-mainnet-rpc.allthatnode.com:1317",
       "rpc": "https://axelar-grpc.quantnode.tech:9090",
-      "bip44": {
-        "coinType": "118"
-      },
       "currencies": [
         {
           "coinDenom": "AXL",
@@ -35,9 +35,6 @@
       "clientId": "",
       "rest": "https://axelar-lisbon-rpc.allthatnode.com:1317",
       "rpc": "https://axelartest-rpc.quickapi.com/",
-      "bip44": {
-        "coinType": "118"
-      },
       "currencies": [
         {
           "coinDenom": "",

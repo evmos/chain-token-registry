@@ -1,6 +1,6 @@
 {
   "prefix": "cosmos",
-  "gasPriceStop": {
+  "gasPriceStep": {
     "low": "0.005",
     "average": "0.025",
     "high": "0.04"
