@@ -20,4 +20,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           json_schema: ./schema.token.json
-          json_path_pattern: ./tokens/*.json$
+          json_path_pattern: tokens\/.*.json
