@@ -1,0 +1,98 @@
+{
+    "token_pairs": [
+      {
+        "erc20_address": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
+        "denom": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
+        "denom": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
+        "denom": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0xF5b24c0093b65408ACE53df7ce86a02448d53b25",
+        "denom": "ibc/C834CD421B4FD910BBC97E06E86B5E6F64EA2FE36D6AE0E4304C2E1FB1E7333C",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6",
+        "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19",
+        "denom": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x5aD523d94Efb56C400941eb6F34393b84c75ba39",
+        "denom": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",
+        "denom": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717",
+        "denom": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
+        "denom": "ibc/63C53CBDF471D4E867366ABE2E631197257118D1B2BEAD1946C8A408F96464C3",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd",
+        "denom": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x50dE24B3f0B3136C50FA8A3B8ebc8BD80a269ce5",
+        "denom": "ibc/356EDE917394B2AEF7F915EB24FA683A0CCB8D16DD4ECCEDC2AD0CEC6B66AC81",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
+        "denom": "ibc/DF63978F803A2E27CA5CC9B7631654CCF0BBC788B3B7F0A10200508E37C70992",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      },
+      {
+        "erc20_address": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
+        "denom": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
+        "enabled": true,
+        "contract_owner": "OWNER_MODULE"
+      }
+    ],
+    "pagination": {
+      "next_key": null,
+      "total": "15"
+    }
+  }
