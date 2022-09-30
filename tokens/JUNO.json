@@ -10,7 +10,7 @@
   "name": "Juno",
   "channel": "channel-5",
   "isEnabled": true,
-  "erc20_address": "0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19",
+  "erc20Address": "0x3452e23F9c4cC62c70B7ADAd699B264AF3549C19",
   "ibc": {
     "sourceDenom": "ujuno",
     "source": "Juno"

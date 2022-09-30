@@ -10,7 +10,7 @@
   "name": "USD Coin by Axelar",
   "channel": "channel-21",
   "isEnabled": true,
-  "erc20_address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
+  "erc20Address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
   "ibc": {
     "sourceDenom": "uusdc",
     "source": "Axelar"

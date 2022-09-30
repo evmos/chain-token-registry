@@ -10,7 +10,7 @@
   "name": "Tether USD",
   "channel": "channel-8",
   "isEnabled": true,
-  "erc20_address": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
+  "erc20Address": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
   "ibc": {
     "sourceDenom": "gravity0x6c9E3E437b0F06C5366fAE4ea4e6cd6fB1803BdF",
     "source": "Gravity"

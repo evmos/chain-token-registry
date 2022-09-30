@@ -10,7 +10,7 @@
     "name": "Wrapped Ether on Axelar",
     "channel": "channel-21",
     "isEnabled": true,
-    "erc20_address": "0x50dE24B3f0B3136C50FA8A3B8ebc8BD80a269ce5",
+    "erc20Address": "0x50dE24B3f0B3136C50FA8A3B8ebc8BD80a269ce5",
     "ibc": {
       "sourceDenom": "weth-wei",
       "source": "Axelar"

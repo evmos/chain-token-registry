@@ -10,7 +10,7 @@
   "name": "Osmosis",
   "channel": "channel-0",
   "isEnabled": true,
-  "erc20_address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
+  "erc20Address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
   "ibc": {
     "sourceDenom": "uosmo",
     "source": "Osmosis"
