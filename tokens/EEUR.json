@@ -10,7 +10,7 @@
   "name": "e-Money EUR",
   "channel": "channel-24",
   "isEnabled": true,
-  "erc20_address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
+  "erc20Address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
   "ibc": {
     "sourceDenom": "eeur",
     "source": "e-Money"

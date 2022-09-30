@@ -10,7 +10,7 @@
   "name": "Dai Stablecoin",
   "channel": "channel-8",
   "isEnabled": true,
-  "erc20_address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
+  "erc20Address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
   "ibc": {
     "sourceDenom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
     "source": "Gravity"

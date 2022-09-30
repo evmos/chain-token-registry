@@ -10,7 +10,7 @@
   "name": "Wrapped Ether",
   "channel": "channel-8",
   "isEnabled": true,
-  "erc20_address": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
+  "erc20Address": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
   "ibc": {
     "sourceDenom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "source": "Gravity"

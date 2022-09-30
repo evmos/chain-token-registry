@@ -10,7 +10,7 @@
   "name": "Cosmos Hub",
   "channel": "channel-3",
   "isEnabled": true,
-  "erc20_address": "0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6",
+  "erc20Address": "0xC5e00D3b04563950941f7137B5AfA3a534F0D6d6",
   "ibc": {
     "sourceDenom": "uatom",
     "source": "Cosmos"

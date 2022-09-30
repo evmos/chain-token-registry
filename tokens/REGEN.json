@@ -10,7 +10,7 @@
   "name": "Regen Network",
   "channel": "channel-20",
   "isEnabled": true,
-  "erc20_address": "0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717",
+  "erc20Address": "0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717",
   "ibc": {
     "sourceDenom": "uregen",
     "source": "Regen"

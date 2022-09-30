@@ -10,7 +10,7 @@
   "name": "Stargaze",
   "channel": "channel-13",
   "isEnabled": true,
-  "erc20_address": "0x5aD523d94Efb56C400941eb6F34393b84c75ba39",
+  "erc20Address": "0x5aD523d94Efb56C400941eb6F34393b84c75ba39",
   "ibc": {
     "sourceDenom": "ustars",
     "source": "Stars"
