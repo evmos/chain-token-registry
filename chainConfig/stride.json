@@ -14,7 +14,7 @@
         "chainName": "stride",
         "rpc": "https://stride-rpc.polkachu.com:443",
         "rest": "https://stride-api.polkachu.com",
-  
+        "clientId": "",
         "currencies": [
           {
             "coinDenom": "STRD",
