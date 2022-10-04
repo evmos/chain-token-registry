@@ -1,0 +1,53 @@
+{
+  "prefix": "evmos",
+  "gasPriceStep": {
+    "low": "10000000000",
+    "average": "25000000000",
+    "high": "40000000000"
+  },
+  "bip44": {
+    "coinType": "60"
+  },
+  "configurations": [
+    {
+      "chainId": "evmos_9001-2",
+      "chainName": "Evmos",
+      "clientId": "",
+      "rest": "",
+      "rpc": "",
+      "currencies": [
+        {
+          "coinDenom": "EVMOS",
+          "coinMinDenom": "aevmos",
+          "coinDecimals": "18"
+        }
+      ],
+      "source": {
+        "sourceChannel": "",
+        "destinationChannel": "",
+        "jsonRPC": ""
+      },
+      "configurationType": "mainnet"
+    },
+    {
+      "chainId": "evmos_9000-4",
+      "chainName": "Evmos Testnet",
+      "clientId": "",
+      "rest": "",
+      "rpc": "",
+      "currencies": [
+        {
+          "coinDenom": "TEVMOS",
+          "coinMinDenom": "atevmos",
+          "coinDecimals": "18"
+        }
+      ],
+      "source": {
+        "sourceChannel": "",
+        "destinationChannel": "",
+        "jsonRPC": ""
+      },
+      "configurationType": "testnet"
+    }
+  ]
+}
