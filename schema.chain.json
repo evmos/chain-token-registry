@@ -28,6 +28,25 @@
         "required": ["low", "medium", "high"]
       }
     },
+    "feeMarket": {
+      "type": "object",
+      "description": "Only applicable to EVMOS",
+      "required": ["gas", "amount", "convert"],
+      "properties": {
+        "gas": {
+          "type": "string",
+          "description": "Enter appropriate gas cost"
+        },
+        "amount": {
+          "type": "string",
+          "description": "Enter appropriate amount cost"
+        },
+        "convert": {
+          "type": "string",
+          "description": "Enter appropriate convert cost"
+        }
+      }
+    },
     "bip44": {
       "type": "object",
       "required": ["coinType"],
@@ -109,6 +128,25 @@
               "jsonRPC": {
                 "type": "string",
                 "description": "Tendermint endpoint link or using port 26657"
+              }
+            }
+          },
+          "explorer": {
+            "type": "array",
+            "description": "Explorer is only necessary for EVMOS network. All other Cosmos chains do not require this array object to be filled out",
+            "items": {
+              "type": "object",
+              "required": ["link", "type"],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["evm", "cosmos"],
+                  "description": "Add the correct explorer data type"
+                },
+                "link": {
+                  "type": "string",
+                  "description": "Link to explorer"
+                }
               }
             }
           },
