@@ -1,0 +1,78 @@
+{
+  "prefix": "evmos",
+  "gasPriceStep": {
+    "low": "10000000000",
+    "average": "25000000000",
+    "high": "40000000000"
+  },
+  "feeMarket": {
+    "gas": "350000",
+    "amount": "50000",
+    "convert": "10500000"
+  },
+  "bip44": {
+    "coinType": "60"
+  },
+  "configurations": [
+    {
+      "chainId": "evmos_9001-2",
+      "chainName": "Evmos",
+      "clientId": "",
+      "rest": "",
+      "rpc": "",
+      "currencies": [
+        {
+          "coinDenom": "EVMOS",
+          "coinMinDenom": "aevmos",
+          "coinDecimals": "18"
+        }
+      ],
+      "source": {
+        "sourceChannel": "",
+        "destinationChannel": "",
+        "jsonRPC": ""
+      },
+      "explorer": [
+        {
+          "link": "https://mintscan.io/evmos",
+          "type": "cosmos"
+        },
+        {
+          "link": "https://evm.evmos.org",
+          "type": "evm"
+        }
+      ],
+      "configurationType": "mainnet"
+    },
+    {
+      "chainId": "evmos_9000-4",
+      "chainName": "Evmos Testnet",
+      "clientId": "",
+      "rest": "https://rest.bd.evmos.dev:1317",
+      "rpc": "https://grpc.bd.evmos.dev:9090",
+      "currencies": [
+        {
+          "coinDenom": "TEVMOS",
+          "coinMinDenom": "atevmos",
+          "coinDecimals": "18"
+        }
+      ],
+      "source": {
+        "sourceChannel": "",
+        "destinationChannel": "",
+        "jsonRPC": "https://tendermint.bd.evmos.dev:26657"
+      },
+      "explorer": [
+        {
+          "link": "https://testnet.mintscan.io/evmos-testnet",
+          "type": "cosmos"
+        },
+        {
+          "link": "https://evm.evmos.dev",
+          "type": "evm"
+        }
+      ],
+      "configurationType": "testnet"
+    }
+  ]
+}
