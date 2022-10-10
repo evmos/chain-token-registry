@@ -12,7 +12,7 @@
     {
       "chainId": "axelar-dojo-1",
       "chainName": "Axelar",
-      "clientId": "",
+      "clientId": "07-tendermint-69",
       "rest": "https://axelar-mainnet-rpc.allthatnode.com:1317",
       "rpc": "https://axelar-grpc.quantnode.tech:9090",
       "currencies": [
