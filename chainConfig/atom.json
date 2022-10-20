@@ -13,7 +13,28 @@
       "chainId": "cosmoshub-4",
       "chainName": "Cosmos Hub",
       "clientId": "07-tendermint-3",
-      "rest": "https://lcd-cosmoshub.whispernode.com/",
+      "rest": [
+        "https://cosmos-lcd.quickapi.com:443",
+        "https://lcd-cosmoshub.whispernode.com",
+        "https://lcd-cosmoshub.blockapsis.com",
+        "https://rest-cosmoshub.ecostake.com",
+        "https://api.cosmoshub.pupmos.network",
+        "https://lcd.cosmos.ezstaking.io",
+        "https://api-cosmoshub-ia.notional.ventures/"
+      ],
+      "jrpc": [
+        "https://cosmos-rpc.quickapi.com:443",
+        "https://rpc-cosmoshub.whispernode.com",
+        "https://rpc-cosmoshub.blockapsis.com",
+        "https://cosmoshub.validator.network/",
+        "https://rpc.cosmoshub.strange.love",
+        "https://rpc.cosmos.network:443",
+        "https://rpc-cosmoshub.ecostake.com",
+        "https://rpc.cosmoshub.pupmos.network",
+        "https://cosmos-rpc.polkachu.com",
+        "https://rpc.cosmos.ezstaking.io",
+        "https://rpc-cosmoshub-ia.notional.ventures/"
+      ],
       "rpc": "https://cosmoshub-rpc.stakely.io/",
       "currencies": [
         {

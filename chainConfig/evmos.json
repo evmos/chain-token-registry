@@ -18,7 +18,34 @@
       "chainId": "evmos_9001-2",
       "chainName": "Evmos",
       "clientId": "",
-      "rest": "",
+      "rest": [
+        "https://lcd-evmos.whispernode.com",
+        "https://rest.bd.evmos.org:1317",
+        "https://lcd.evmos.ezstaking.io",
+        "https://api-evmos-ia.cosmosia.notional.ventures",
+        "https://lcd.evmos.posthuman.digital",
+        "https://api.evmos.interbloc.org",
+        "https://lcd.evmos.bh.rocks"
+      ],
+      "jrpc": [
+        "https://rpc-evmos.whispernode.com",
+        "https://tendermint.bd.evmos.org:26657",
+        "https://rpc.evmos.ezstaking.io",
+        "https://rpc-evmos-ia.cosmosia.notional.ventures:443",
+        "https://rpc.evmos.posthuman.digital",
+        "https://rpc.evmos.interbloc.org",
+        "https://rpc.evmos.nodestake.top",
+        "https://rpc-evmos.ecostake.com",
+        "https://rpc.evmos.bh.rocks"
+      ],
+      "web3": [
+        "https://jsonrpc-rpcaas-evmos-mainnet.ubiquity.blockdaemon.tech",
+        "https://eth.bd.evmos.org:8545",
+        "https://jsonrpc-evmos-ia.cosmosia.notional.ventures",
+        "https://evmos-json-rpc.stakely.io",
+        "https://jsonrpc.evmos.nodestake.top",
+        "https://json-rpc.evmos.bh.rocks"
+      ],
       "rpc": "",
       "currencies": [
         {
