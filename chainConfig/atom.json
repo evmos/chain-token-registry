@@ -54,8 +54,8 @@
       "chainId": "theta-testnet-001",
       "chainName": "Cosmos Testnet",
       "clientId": "07-tendermint-23",
-      "rest": "",
-      "rpc": "",
+      "rest": [],
+      "rpc": [],
       "currencies": [
         {
           "coinDenom": "ATOM",
