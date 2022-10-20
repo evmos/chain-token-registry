@@ -51,8 +51,8 @@
       "chainId": "axelar-testnet-lisbon-3",
       "chainName": "Axelar Testnet",
       "clientId": "",
-      "rest": "https://axelar-lisbon-rpc.allthatnode.com:1317",
-      "rpc": "https://axelartest-rpc.quickapi.com/",
+      "rest": ["https://axelar-lisbon-rpc.allthatnode.com:1317"],
+      "rpc": ["https://axelartest-rpc.quickapi.com/"],
       "currencies": [
         {
           "coinDenom": "",

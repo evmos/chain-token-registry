@@ -21,8 +21,8 @@
         "https://api-osmosis-ia.notional.ventures",
         "https://lcd.osmosis.zone",
         "https://api.osmosis.interbloc.org"
-    ],
-    "jrpc": [
+      ],
+      "jrpc": [
         "https://osmosis-rpc.quickapi.com:443",
         "https://rpc-osmosis.whispernode.com",
         "https://osmosis.validator.network",
@@ -32,7 +32,7 @@
         "https://rpc-osmosis-ia.notional.ventures",
         "https://rpc.osmosis.zone",
         "https://rpc.osmosis.interbloc.org"
-    ],
+      ],
       "rpc": "",
       "currencies": [
         {
@@ -52,8 +52,8 @@
       "chainId": "osmo-test-4",
       "chainName": "Osmosis Testnet",
       "clientId": "07-tendermint-3",
-      "rest": "https://osmosis-api.evmos.dev/",
-      "rpc": "https://osmosis-grpc.evmos.dev",
+      "rest": ["https://osmosis-api.evmos.dev/"],
+      "rpc": ["https://osmosis-grpc.evmos.dev"],
       "currencies": [
         {
           "coinDenom": "OSMO",
