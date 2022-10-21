@@ -1,0 +1,34 @@
+{
+    "prefix": "stride",
+    "gasPriceStep": {
+		"low": "0.01",
+		"average": "0.025",
+		"high": "0.03"
+	},
+    "bip44": {
+      "coinType": "118"
+    },
+    "configurations": [
+      {
+        "chainId": "stride-1",
+        "chainName": "stride",
+        "rpc": "https://stride-rpc.polkachu.com:443",
+        "rest": "https://stride-api.polkachu.com",
+        "clientId": "07-tendermint-80",
+        "currencies": [
+          {
+            "coinDenom": "STRD",
+            "coinMinDenom": "ustrd",
+            "coinDecimals": "6"
+          }
+        ],
+        "source": {
+          "sourceChannel": "channel-16",
+          "destinationChannel": "channel-27",
+          "jsonRPC": "https://stride-rpc.polkachu.com:443"
+        },
+        "configurationType": "mainnet"
+      }
+    ]
+  }
+  
