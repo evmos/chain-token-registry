@@ -1,0 +1,34 @@
+{
+    "prefix": "kujira",
+    "gasPriceStep": {
+		"low": "0.01",
+		"average": "0.025",
+		"high": "0.03"
+	},
+    "bip44": {
+      "coinType": "118"
+    },
+    "configurations": [
+      {
+        "chainId": "kaiyo-1",
+        "chainName": "kujira",
+        "clientId": "07-tendermint-53",
+        "rpc": "https://rpc.kaiyo.kujira.setten.io",
+        "rest": "https://lcd.kaiyo.kujira.setten.io",
+  
+        "currencies": [
+          {
+            "coinDenom": "KUJI",
+            "coinMinDenom": "ukuji",
+            "coinDecimals": "6"
+          }
+        ],
+        "source": {
+          "sourceChannel": "channel-23",
+          "destinationChannel": "channel-18"
+        },
+        "configurationType": "mainnet"
+      }
+    ]
+  }
+  
