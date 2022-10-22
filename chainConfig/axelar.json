@@ -13,7 +13,25 @@
       "chainId": "axelar-dojo-1",
       "chainName": "Axelar",
       "clientId": "07-tendermint-69",
-      "rest": "https://axelar-mainnet-rpc.allthatnode.com:1317",
+      "rest": [
+        "https://lcd-axelar.imperator.co:443",
+        "https://axelar-lcd.quickapi.com:443",
+        "https://axelar-rest.chainode.tech:443",
+        "https://axelar-lcd.qubelabs.io:443",
+        "https://api-1.axelar.nodes.guru:443",
+        "https://api-axelar-ia.cosmosia.notional.ventures/",
+        "https://axelar-api.polkachu.com"
+      ],
+      "jrpc": [
+        "https://rpc-axelar.imperator.co:443",
+        "https://axelar-rpc.quickapi.com:443",
+        "https://axelar-rpc.chainode.tech:443",
+        "https://axelar-rpc.pops.one:443",
+        "https://axelar-rpc.qubelabs.io:443",
+        "https://rpc-1.axelar.nodes.guru:443",
+        "https://rpc-axelar-ia.cosmosia.notional.ventures/",
+        "https://axelar-rpc.polkachu.com"
+      ],
       "rpc": "https://axelar-grpc.quantnode.tech:9090",
       "currencies": [
         {
@@ -33,8 +51,8 @@
       "chainId": "axelar-testnet-lisbon-3",
       "chainName": "Axelar Testnet",
       "clientId": "",
-      "rest": "https://axelar-lisbon-rpc.allthatnode.com:1317",
-      "rpc": "https://axelartest-rpc.quickapi.com/",
+      "rest": ["https://axelar-lisbon-rpc.allthatnode.com:1317"],
+      "rpc": ["https://axelartest-rpc.quickapi.com/"],
       "currencies": [
         {
           "coinDenom": "",

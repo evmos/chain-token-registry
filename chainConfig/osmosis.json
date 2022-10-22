@@ -13,7 +13,26 @@
       "chainId": "osmosis-1",
       "chainName": "Osmosis",
       "clientId": "07-tendermint-0",
-      "rest": "https://lcd.osmosis.zone",
+      "rest": [
+        "https://osmosis-lcd.quickapi.com:443",
+        "https://lcd-osmosis.whispernode.com",
+        "https://lcd-osmosis.blockapsis.com",
+        "https://rest-osmosis.ecostake.com",
+        "https://api-osmosis-ia.notional.ventures",
+        "https://lcd.osmosis.zone",
+        "https://api.osmosis.interbloc.org"
+      ],
+      "jrpc": [
+        "https://osmosis-rpc.quickapi.com:443",
+        "https://rpc-osmosis.whispernode.com",
+        "https://osmosis.validator.network",
+        "https://rpc-osmosis.blockapsis.com",
+        "https://rpc-osmosis.ecostake.com",
+        "https://osmosis-rpc.polkachu.com",
+        "https://rpc-osmosis-ia.notional.ventures",
+        "https://rpc.osmosis.zone",
+        "https://rpc.osmosis.interbloc.org"
+      ],
       "rpc": "",
       "currencies": [
         {
@@ -33,8 +52,8 @@
       "chainId": "osmo-test-4",
       "chainName": "Osmosis Testnet",
       "clientId": "07-tendermint-3",
-      "rest": "https://osmosis-api.evmos.dev/",
-      "rpc": "https://osmosis-grpc.evmos.dev",
+      "rest": ["https://osmosis-api.evmos.dev/"],
+      "rpc": ["https://osmosis-grpc.evmos.dev"],
       "currencies": [
         {
           "coinDenom": "OSMO",

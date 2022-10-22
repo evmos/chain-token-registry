@@ -13,9 +13,24 @@
       "chainId": "juno-1",
       "chainName": "Juno",
       "clientId": "07-tendermint-14",
-      "rest": "https://lcd-juno.whispernode.com",
+      "rest": [
+        "https://lcd-juno.itastakers.com",
+        "https://rest-juno.ecostake.com",
+        "https://juno-api.lavenderfive.com:443",
+        "https://api.juno.pupmos.network",
+        "https://api-juno-ia.cosmosia.notional.ventures",
+        "https://juno-api.polkachu.com"
+      ],
+      "jrpc": [
+        "https://rpc-juno.itastakers.com",
+        "https://rpc-juno.ecostake.com",
+        "https://juno-rpc.polkachu.com",
+        "https://juno-rpc.lavenderfive.com:443",
+        "https://rpc-juno-ia.cosmosia.notional.ventures",
+        "https://rpc.juno.chaintools.tech",
+        "https://rpc.juno.pupmos.network"
+      ],
       "rpc": "https://rpc-juno.whispernode.com",
-
       "currencies": [
         {
           "coinDenom": "JUNO",
