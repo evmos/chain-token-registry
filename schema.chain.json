@@ -85,7 +85,10 @@
             "description": "Query the 'evmosd query ibc channel client-state [port-id] [channel-id] [flags]' and copy over the client-id field"
           },
           "rpc": {
-            "type": "string",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
             "description": "RPC endpoint link, usually port 1317"
           },
           "rest": {
