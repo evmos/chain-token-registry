@@ -15,7 +15,6 @@
         "clientId": "07-tendermint-53",
         "rpc": "https://rpc.kaiyo.kujira.setten.io",
         "rest": "https://lcd.kaiyo.kujira.setten.io",
-  
         "currencies": [
           {
             "coinDenom": "KUJI",
@@ -25,7 +24,8 @@
         ],
         "source": {
           "sourceChannel": "channel-23",
-          "destinationChannel": "channel-18"
+          "destinationChannel": "channel-18",
+          "jsonRPC": "https://rpc.kaiyo.kujira.setten.io"
         },
         "configurationType": "mainnet"
       }
