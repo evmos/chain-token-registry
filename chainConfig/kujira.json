@@ -14,7 +14,7 @@
         "chainName": "kujira",
         "clientId": "07-tendermint-53",
         "rpc": "https://rpc.kaiyo.kujira.setten.io",
-        "rest": "https://lcd.kaiyo.kujira.setten.io",
+        "rest": ["https://lcd.kaiyo.kujira.setten.io"],
         "currencies": [
           {
             "coinDenom": "KUJI",
