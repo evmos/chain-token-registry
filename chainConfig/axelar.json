@@ -32,7 +32,7 @@
         "https://rpc-axelar-ia.cosmosia.notional.ventures/",
         "https://axelar-rpc.polkachu.com"
       ],
-      "rpc": "https://axelar-grpc.quantnode.tech:9090",
+      "rpc": ["https://axelar-grpc.quantnode.tech:9090"],
       "currencies": [
         {
           "coinDenom": "AXL",

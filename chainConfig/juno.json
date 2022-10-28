@@ -30,7 +30,7 @@
         "https://rpc.juno.chaintools.tech",
         "https://rpc.juno.pupmos.network"
       ],
-      "rpc": "https://rpc-juno.whispernode.com",
+      "rpc": ["https://rpc-juno.whispernode.com"],
       "currencies": [
         {
           "coinDenom": "JUNO",

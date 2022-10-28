@@ -35,7 +35,7 @@
         "https://rpc.cosmos.ezstaking.io",
         "https://rpc-cosmoshub-ia.notional.ventures/"
       ],
-      "rpc": "https://cosmoshub-rpc.stakely.io/",
+      "rpc": ["https://cosmoshub-rpc.stakely.io/"],
       "currencies": [
         {
           "coinDenom": "ATOM",

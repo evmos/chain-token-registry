@@ -12,8 +12,8 @@
       {
         "chainId": "stride-1",
         "chainName": "stride",
-        "rpc": "https://stride-rpc.polkachu.com:443",
-        "rest": "https://stride-api.polkachu.com",
+        "rpc": ["https://stride-rpc.polkachu.com:443"],
+        "rest": ["https://stride-api.polkachu.com"],
         "clientId": "07-tendermint-80",
         "currencies": [
           {
