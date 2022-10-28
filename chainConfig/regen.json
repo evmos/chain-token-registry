@@ -13,8 +13,8 @@
       "chainId": "regen-1",
       "chainName": "Regen Network",
       "clientId": "07-tendermint-67",
-      "rest": "https://rest-regen.ecostake.com",
-      "rpc": "https://rpc-regen.ecostake.com",
+      "rest": ["https://rest-regen.ecostake.com"],
+      "rpc": ["https://rpc-regen.ecostake.com"],
       "currencies": [
         {
           "coinDenom": "REGEN",

@@ -46,7 +46,7 @@
         "https://jsonrpc.evmos.nodestake.top",
         "https://json-rpc.evmos.bh.rocks"
       ],
-      "rpc": "",
+      "rpc":[""],
       "currencies": [
         {
           "coinDenom": "EVMOS",
