@@ -10,7 +10,7 @@
   "name": "Wrapped Bitcoin on Axelar",
   "channel": "channel-21",
   "isEnabled": true,
-  "erc20Address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
+  "erc20Address": "0xF5b24c0093b65408ACE53df7ce86a02448d53b25",
   "ibc": {
     "sourceDenom": "wbtc-satoshi",
     "source": "Axelar"
