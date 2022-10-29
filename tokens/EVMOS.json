@@ -5,7 +5,7 @@
   "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
   "type": "IBC",
   "exponent": "18",
-  "cosmosDenom": "",
+  "cosmosDenom": "aevmos",
   "description": "EVMOS",
   "name": "EVMOS",
   "channel": "",
