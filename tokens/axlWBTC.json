@@ -16,6 +16,10 @@
       "source": "Axelar"
     },
     "hideFromTestnet": false,
+    "handledByExternalUI": [{
+      "url": "https://satellite.money/",
+      "handlingAction": "Deposit and Withdraw"
+    }],
     "coingeckoId": "wrapped-bitcoin"
   }
   

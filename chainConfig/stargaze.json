@@ -13,8 +13,8 @@
       "chainId": "stargaze-1",
       "chainName": "Stargaze",
       "clientId": "07-tendermint-41",
-      "rest": "https://rest.stargaze-apis.com/",
-      "rpc": "https://rpc.stargaze-apis.com/",
+      "rest": ["https://rest.stargaze-apis.com/"],
+      "rpc": ["https://rpc.stargaze-apis.com/"],
       "currencies": [
         {
           "coinDenom": "STARS",
@@ -25,7 +25,7 @@
       "source": {
         "sourceChannel": "channel-46",
         "destinationChannel": "channel-13",
-        "jsonRPC": "stargaze-grpc.polkachu.com:13790"
+        "jsonRPC": ["stargaze-grpc.polkachu.com:13790"]
       },
       "configurationType": "mainnet"
     }

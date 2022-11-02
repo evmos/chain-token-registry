@@ -13,8 +13,8 @@
       "chainId": "emoney-3",
       "chainName": "EMoney",
       "clientId": "07-tendermint-75",
-      "rest": "https://lcd-emoney.keplr.app",
-      "rpc": "https://rpc-emoney.keplr.app",
+      "rest": ["https://lcd-emoney.keplr.app"],
+      "rpc": ["https://rpc-emoney.keplr.app"],
       "currencies": [
         {
           "coinDenom": "emd",
@@ -25,7 +25,7 @@
       "source": {
         "sourceChannel": "channel-28",
         "destinationChannel": "channel-24",
-        "jsonRPC": "https://rpc-emoney.keplr.app"
+        "jsonRPC": ["https://rpc-emoney.keplr.app"]
       },
       "configurationType": "mainnet"
     }

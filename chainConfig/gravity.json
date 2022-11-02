@@ -27,7 +27,7 @@
         "https://rpc-gravitybridge-ia.notional.ventures",
         "https://rpc.gravity-bridge.nodestake.top"
       ],
-      "rpc": "https://lcd-gravity-bridge.keplr.app:9090/",
+      "rpc": ["https://lcd-gravity-bridge.keplr.app:9090/"],
       "currencies": [
         {
           "coinDenom": "GRAV",
@@ -38,7 +38,7 @@
       "source": {
         "sourceChannel": "channel-65",
         "destinationChannel": "channel-8",
-        "jsonRPC": "https://gravitychain.io:26657/"
+        "jsonRPC": ["https://gravitychain.io:26657/"]
       },
       "configurationType": "mainnet"
     }

@@ -46,7 +46,7 @@
         "https://jsonrpc.evmos.nodestake.top",
         "https://json-rpc.evmos.bh.rocks"
       ],
-      "rpc": "",
+      "rpc": [],
       "currencies": [
         {
           "coinDenom": "EVMOS",
@@ -57,7 +57,7 @@
       "source": {
         "sourceChannel": "",
         "destinationChannel": "",
-        "jsonRPC": ""
+        "jsonRPC": []
       },
       "explorer": [
         {
@@ -87,7 +87,7 @@
       "source": {
         "sourceChannel": "",
         "destinationChannel": "",
-        "jsonRPC": "https://tendermint.bd.evmos.dev:26657"
+        "jsonRPC": ["https://tendermint.bd.evmos.dev:26657"]
       },
       "explorer": [
         {
