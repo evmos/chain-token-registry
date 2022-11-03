@@ -16,5 +16,6 @@
     "source": "e-Money"
   },
   "hideFromTestnet": false,
-  "coingeckoId": "e-money-eur"
+  "coingeckoId": "e-money-eur",
+  "category": "stablecoin"
 }

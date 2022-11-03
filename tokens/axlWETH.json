@@ -20,6 +20,7 @@
       "url": "https://satellite.money/",
       "handlingAction": "Deposit and Withdraw"
     }],
-    "coingeckoId": "weth"
+    "coingeckoId": "weth",
+    "category": "ethereum"
   }
-  
+ 

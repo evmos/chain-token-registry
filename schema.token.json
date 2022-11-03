@@ -74,6 +74,12 @@
       "type": "string",
       "description": "Official string coingecko uses to search and load the asset. Please insure the text matches exactly."
     },
+    "category": {
+      "type": "string",
+      "description": "Select a parental category of this asset. If a category does not exist, please feel free to create a PR to update the schema.",
+      "default": "none",
+      "enum": ["bitcoin", "ethereum", "stablecoin", "cosmos", "polygon","none"]
+    },
     "handledByExternalUI": {
       "type": "array",
       "items": {

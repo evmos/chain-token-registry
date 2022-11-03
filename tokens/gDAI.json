@@ -16,5 +16,6 @@
     "source": "Gravity"
   },
   "hideFromTestnet": true,
-  "coingeckoId": "dai"
+  "coingeckoId": "dai",
+  "category": "stablecoin"
 }

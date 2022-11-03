@@ -16,5 +16,6 @@
     "source": "Stars"
   },
   "hideFromTestnet": false,
-  "coingeckoId": "stargaze"
+  "coingeckoId": "stargaze",
+  "category": "cosmos"
 }

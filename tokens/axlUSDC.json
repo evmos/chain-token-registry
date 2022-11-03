@@ -20,5 +20,6 @@
     "url": "https://satellite.money/",
     "handlingAction": "Deposit and Withdraw"
   }],
-  "coingeckoId": "usd-coin"
+  "coingeckoId": "usd-coin",
+  "category": "stablecoin"
 }

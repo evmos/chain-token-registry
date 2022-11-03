@@ -1,0 +1,21 @@
+{
+  "coinDenom": "USK",
+  "minCoinDenom": "uusk",
+  "imgSrc": "https://github.com/cosmos/chain-registry/blob/master/kujira/images/usk.png",
+  "pngSrc": "https://github.com/cosmos/chain-registry/blob/master/kujira/images/usk.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
+  "description": "An over-collateralized soft-pegged token to the USD on the Kujira chain",
+  "name": "USK Stablecoin of Kujira",
+  "channel": "channel-18",
+  "isEnabled": true,
+  "erc20Address": "0x13974cf36984216C90D1F4FC815C156092feA396",
+  "ibc": {
+    "sourceDenom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+    "source": "Kujira"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "usk",
+  "category": "stablecoin"
+}

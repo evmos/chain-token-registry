@@ -16,5 +16,6 @@
     "source": "Regen"
   },
   "hideFromTestnet": false,
-  "coingeckoId": "stargaze"
+  "coingeckoId": "stargaze",
+  "category": "cosmos"
 }
