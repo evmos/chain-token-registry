@@ -16,5 +16,6 @@
     "source": "Gravity"
   },
   "hideFromTestnet": true,
-  "coingeckoId": "wrapped-bitcoin"
+  "coingeckoId": "wrapped-bitcoin",
+  "category": "bitcoin"
 }

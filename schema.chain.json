@@ -4,14 +4,22 @@
   "description": "Chain Registry via Evmos Governance",
   "type": "object",
   "properties": {
-    "required": ["gasPriceStep", "prefix", "bip44"],
+    "required": [
+      "gasPriceStep",
+      "prefix",
+      "bip44"
+    ],
     "prefix": {
       "type": "string",
       "description": "Chain prefix i.e. evmos"
     },
     "gasPriceStep": {
       "type": "object",
-      "required": ["low", "average", "high"],
+      "required": [
+        "low",
+        "average",
+        "high"
+      ],
       "properties": {
         "low": {
           "type": "string",
@@ -25,13 +33,21 @@
           "type": "string",
           "description": "Amount of gas for High"
         },
-        "required": ["low", "medium", "high"]
+        "required": [
+          "low",
+          "medium",
+          "high"
+        ]
       }
     },
     "feeMarket": {
       "type": "object",
       "description": "Only applicable to EVMOS",
-      "required": ["gas", "amount", "convert"],
+      "required": [
+        "gas",
+        "amount",
+        "convert"
+      ],
       "properties": {
         "gas": {
           "type": "string",
@@ -49,7 +65,9 @@
     },
     "bip44": {
       "type": "object",
-      "required": ["coinType"],
+      "required": [
+        "coinType"
+      ],
       "properties": {
         "coinType": {
           "type": "string",
@@ -131,7 +149,11 @@
           },
           "source": {
             "type": "object",
-            "required": ["sourceChannel", "destinationChannel", "jsonRPC"],
+            "required": [
+              "sourceChannel",
+              "destinationChannel",
+              "jsonRPC"
+            ],
             "properties": {
               "sourceChannel": {
                 "type": "string",
@@ -142,7 +164,10 @@
                 "description": "Destination channel represents the main network side, i.e. EVMOS side"
               },
               "jsonRPC": {
-                "type": "string",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
                 "description": "Tendermint endpoint link or using port 26657"
               }
             }
@@ -152,11 +177,17 @@
             "description": "Explorer is only necessary for EVMOS network. All other Cosmos chains do not require this array object to be filled out",
             "items": {
               "type": "object",
-              "required": ["link", "type"],
+              "required": [
+                "link",
+                "type"
+              ],
               "properties": {
                 "type": {
                   "type": "string",
-                  "enum": ["evm", "cosmos"],
+                  "enum": [
+                    "evm",
+                    "cosmos"
+                  ],
                   "description": "Add the correct explorer data type"
                 },
                 "link": {
@@ -168,7 +199,10 @@
           },
           "configurationType": {
             "type": "string",
-            "enum": ["mainnet", "testnet"],
+            "enum": [
+              "mainnet",
+              "testnet"
+            ],
             "description": "Must select either mainnet or testnet"
           }
         }

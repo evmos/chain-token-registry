@@ -33,7 +33,7 @@
         "https://rpc.osmosis.zone",
         "https://rpc.osmosis.interbloc.org"
       ],
-      "rpc": [""],
+      "rpc": [],
       "currencies": [
         {
           "coinDenom": "OSMO",
@@ -44,7 +44,7 @@
       "source": {
         "sourceChannel": "channel-204",
         "destinationChannel": "channel-0",
-        "jsonRPC": "https://rpc-osmosis.blockapsis.com/"
+        "jsonRPC": ["https://rpc-osmosis.blockapsis.com/"]
       },
       "configurationType": "mainnet"
     },
@@ -64,7 +64,7 @@
       "source": {
         "sourceChannel": "channel-227",
         "destinationChannel": "channel-7",
-        "jsonRPC": "https://osmosis-rpc.evmos.dev/"
+        "jsonRPC": ["https://osmosis-rpc.evmos.dev/"]
       },
       "configurationType": "testnet"
     }

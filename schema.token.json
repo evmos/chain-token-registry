@@ -50,7 +50,7 @@
     },
     "erc20Address": {
       "type": "string",
-      "description": "Hex address only, i.e. 0x"
+      "description": "Hex address only, i.e. 0x. Can be found on the Evmos API TokenPairs endpoint. This field will be populated when the token passes governance."
     },
     "ibc": {
       "type": "object",
@@ -73,12 +73,35 @@
     "coingeckoId": {
       "type": "string",
       "description": "Official string coingecko uses to search and load the asset. Please insure the text matches exactly."
+    },
+    "category": {
+      "type": "string",
+      "description": "Select a parental category of this asset. If a category does not exist, please feel free to create a PR to update the schema.",
+      "default": "none",
+      "enum": ["bitcoin", "ethereum", "stablecoin", "cosmos", "polygon","none"]
+    },
+    "handledByExternalUI": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "handlingAction"],
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "Link to the external UI site"
+          },
+          "handlingAction": {
+            "type": "string",
+            "enum": ["Deposit", "Withdraw", "Convert", "Deposit and Withdraw", "All"],
+            "description": "Specify if the external UI is for Deposit, Withdraw, Convert, or others."
+          }
+        }
+      }
     }
   },
   "required": [
     "coinDenom",
     "minCoinDenom",
-    "imgSrc",
     "pngSrc",
     "type",
     "exponent",

@@ -41,7 +41,7 @@
       "source": {
         "sourceChannel": "channel-70",
         "destinationChannel": "channel-5",
-        "jsonRPC": "https://rpc-juno.whispernode.com"
+        "jsonRPC": ["https://rpc-juno.whispernode.com"]
       },
       "configurationType": "mainnet"
     }

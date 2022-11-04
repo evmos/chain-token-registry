@@ -16,5 +16,6 @@
     "source": "Evmos"
   },
   "hideFromTestnet": false,
-  "coingeckoId": "evmos"
+  "coingeckoId": "evmos",
+  "category": "cosmos"
 }

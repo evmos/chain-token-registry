@@ -16,5 +16,6 @@
     "source": "Osmosis"
   },
   "hideFromTestnet": false,
-  "coingeckoId": "osmosis"
+  "coingeckoId": "osmosis",
+  "category": "cosmos"
 }

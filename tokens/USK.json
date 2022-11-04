@@ -16,5 +16,6 @@
     "source": "Kujira"
   },
   "hideFromTestnet": false,
-  "coingeckoId": "usk"
+  "coingeckoId": "usk",
+  "category": "stablecoin"
 }

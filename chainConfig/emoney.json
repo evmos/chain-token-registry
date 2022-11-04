@@ -25,7 +25,7 @@
       "source": {
         "sourceChannel": "channel-28",
         "destinationChannel": "channel-24",
-        "jsonRPC": "https://rpc-emoney.keplr.app"
+        "jsonRPC": ["https://rpc-emoney.keplr.app"]
       },
       "configurationType": "mainnet"
     }

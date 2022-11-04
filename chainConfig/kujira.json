@@ -25,7 +25,7 @@
         "source": {
           "sourceChannel": "channel-23",
           "destinationChannel": "channel-18",
-          "jsonRPC": "https://rpc.kaiyo.kujira.setten.io"
+          "jsonRPC": ["https://rpc.kaiyo.kujira.setten.io"]
         },
         "configurationType": "mainnet"
       }

@@ -16,6 +16,11 @@
       "source": "Axelar"
     },
     "hideFromTestnet": false,
-    "coingeckoId": "weth"
+    "handledByExternalUI": [{
+      "url": "https://satellite.money/",
+      "handlingAction": "Deposit and Withdraw"
+    }],
+    "coingeckoId": "weth",
+    "category": "ethereum"
   }
  

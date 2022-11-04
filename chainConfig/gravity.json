@@ -38,7 +38,7 @@
       "source": {
         "sourceChannel": "channel-65",
         "destinationChannel": "channel-8",
-        "jsonRPC": "https://gravitychain.io:26657/"
+        "jsonRPC": ["https://gravitychain.io:26657/"]
       },
       "configurationType": "mainnet"
     }

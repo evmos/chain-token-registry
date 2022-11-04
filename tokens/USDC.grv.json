@@ -16,5 +16,6 @@
     "source": "Gravity"
   },
   "hideFromTestnet": true,
-  "coingeckoId": "usd-coin"
+  "coingeckoId": "usd-coin",
+  "category": "stablecoin"
 }

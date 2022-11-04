@@ -25,7 +25,7 @@
       "source": {
         "sourceChannel": "channel-44",
         "destinationChannel": "channel-20",
-        "jsonRPC": "https://rpc-regen.ecostake.com"
+        "jsonRPC": ["https://rpc-regen.ecostake.com"]
       },
       "configurationType": "mainnet"
     }

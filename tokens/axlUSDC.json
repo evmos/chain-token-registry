@@ -16,5 +16,10 @@
     "source": "Axelar"
   },
   "hideFromTestnet": false,
-  "coingeckoId": "usd-coin"
+  "handledByExternalUI": [{
+    "url": "https://satellite.money/",
+    "handlingAction": "Deposit and Withdraw"
+  }],
+  "coingeckoId": "usd-coin",
+  "category": "stablecoin"
 }
