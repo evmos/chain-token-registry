@@ -80,6 +80,7 @@
       "default": "none",
       "enum": ["bitcoin", "ethereum", "stablecoin", "cosmos", "polygon","none"]
     },
+    "parentSource": {},
     "handledByExternalUI": {
       "type": "array",
       "items": {

@@ -40,6 +40,7 @@
       ],
       "source": {
         "sourceChannel": "channel-70",
+        "sourceIBCDenomToEvmos": "IBC/9B990F95D85E7CA8C46544975776CAA20A3DEE3507EEA829A4000D8D65617F6D",
         "destinationChannel": "channel-5",
         "jsonRPC": ["https://rpc-juno.whispernode.com"]
       },

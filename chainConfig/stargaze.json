@@ -24,6 +24,7 @@
       ],
       "source": {
         "sourceChannel": "channel-46",
+        "sourceIBCDenomToEvmos": "IBC/F9C792DF71F960BB9EF698493B61E29C1EBB8FCD56B1F8BB08C86871F5F497C0",
         "destinationChannel": "channel-13",
         "jsonRPC": ["stargaze-grpc.polkachu.com:13790"]
       },
