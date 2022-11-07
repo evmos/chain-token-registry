@@ -78,9 +78,12 @@
       "type": "string",
       "description": "Select a parental category of this asset. If a category does not exist, please feel free to create a PR to update the schema.",
       "default": "none",
-      "enum": ["bitcoin", "ethereum", "stablecoin", "cosmos", "polygon","none"]
+      "enum": ["bitcoin", "ethereum", "stablecoin", "cosmos", "polygon", "none"]
     },
-    "parentSource": {},
+    "parentNetworkCoinSource": {
+      "type": "string",
+      "description": "Use this field to declare if the coin is part of a network's ecosystem, like for example, gWBTC is part of Gravity. If it is the parentNetworkCoinSource, then the response will be 'none'."
+    },
     "handledByExternalUI": {
       "type": "array",
       "items": {
@@ -112,6 +115,8 @@
     "channel",
     "erc20Address",
     "ibc",
-    "coingeckoId"
+    "coingeckoId",
+    "parentNetworkCoinSource",
+    "category"
   ]
 }
