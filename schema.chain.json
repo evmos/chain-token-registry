@@ -151,6 +151,7 @@
             "type": "object",
             "required": [
               "sourceChannel",
+              "sourceIBCDenomToEvmos",
               "destinationChannel",
               "jsonRPC"
             ],
@@ -158,6 +159,10 @@
               "sourceChannel": {
                 "type": "string",
                 "description": "Source channel represents the third-party, i.e. Cosmos Hub side"
+              },
+              "sourceIBCDenomToEvmos": {
+                "type": "string",
+                "description": "The value is ibc/[sha256 of 'transfer/${sourceChannel}/aevmos' phrase]. This value is required to pull in EVMOS from source chain to Evmos chain."
               },
               "destinationChannel": {
                 "type": "string",

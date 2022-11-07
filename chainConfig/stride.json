@@ -24,6 +24,7 @@
       ],
       "source": {
         "sourceChannel": "channel-16",
+        "sourceIBCDenomToEvmos": "IBC/A3643FAA80C7DA7E72B23853340F6EAD4F3A698CDC39CE42FBF23F3A4A6E3803",
         "destinationChannel": "channel-27",
         "jsonRPC": ["https://stride-rpc.polkachu.com:443"]
       },

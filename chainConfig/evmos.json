@@ -56,6 +56,7 @@
       ],
       "source": {
         "sourceChannel": "",
+        "sourceIBCDenomToEvmos": "",
         "destinationChannel": "",
         "jsonRPC": []
       },
@@ -86,6 +87,7 @@
       ],
       "source": {
         "sourceChannel": "",
+        "sourceIBCDenomToEvmos": "",
         "destinationChannel": "",
         "jsonRPC": ["https://tendermint.bd.evmos.dev:26657"]
       },
