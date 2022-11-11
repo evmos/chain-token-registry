@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": true,
   "coingeckoId": "tether",
-  "category": "stablecoin"
+  "category": "stablecoin",
+  "coinSourcePrefix": "gravity"
 }

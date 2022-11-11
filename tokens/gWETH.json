@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": true,
   "coingeckoId": "weth",
-  "category": "ethereum"
+  "category": "ethereum",
+  "coinSourcePrefix": "gravity"
 }

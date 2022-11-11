@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": true,
   "coingeckoId": "wrapped-bitcoin",
-  "category": "bitcoin"
+  "category": "bitcoin",
+  "coinSourcePrefix": "gravity"
 }
