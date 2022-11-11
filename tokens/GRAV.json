@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": true,
   "coingeckoId": "graviton",
-  "category": "cosmos"
+  "category": "cosmos",
+  "coinSourcePrefix": "gravity"
 }

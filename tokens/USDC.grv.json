@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": true,
   "coingeckoId": "usd-coin",
-  "category": "stablecoin"
+  "category": "stablecoin",
+  "coinSourcePrefix": "gravity"
 }

@@ -1,8 +1,8 @@
 {
   "coinDenom": "USK",
   "minCoinDenom": "uusk",
-  "imgSrc": "https://github.com/cosmos/chain-registry/blob/master/kujira/images/usk.png",
-  "pngSrc": "https://github.com/cosmos/chain-registry/blob/master/kujira/images/usk.png",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": false,
   "coingeckoId": "usk",
-  "category": "stablecoin"
+  "category": "stablecoin",
+  "coinSourcePrefix": "kujira"
 }
