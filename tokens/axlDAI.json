@@ -15,7 +15,7 @@
     "sourceDenom": "axldai",
     "source": "Axelar"
   },
-  "hideFromTestnet": false,
+  "hideFromTestnet": true,
   "handledByExternalUI": [{
     "url": "https://satellite.money/",
     "handlingAction": "Deposit and Withdraw"
