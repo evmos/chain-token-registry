@@ -1,0 +1,35 @@
+{
+    "prefix": "tori",
+    "gasPriceStep": {
+      "low": "0.01",
+      "average": "0.025",
+      "high": "0.03"
+    },
+    "bip44": {
+      "coinType": "118"
+    },
+    "configurations": [
+      {
+        "chainId": "teritori-1",
+        "chainName": "teritori",
+        "rpc": "https://rpc.mainnet.teritori.com",
+        "rest": "https://rest.mainnet.teritori.com",
+        "clientId": "07-tendermint-89",
+        "currencies": [
+          {
+            "coinDenom": "TORI",
+            "coinMinDenom": "utori",
+            "coinDecimals": "6"
+          }
+        ],
+        "source": {
+          "sourceChannel": "channel-35",
+          "sourceIBCDenomToEvmos": "IBC/18D5C3CDDF1DEE108CE4BF0A7E0262D94D11AB06A37F68EA38F70CC92C5D894F",
+          "destinationChannel": "channel-1",
+          "jsonRPC": ["https://rpc.mainnet.teritori.com"]
+        },
+        "configurationType": "mainnet"
+      }
+    ]
+  }
+  
