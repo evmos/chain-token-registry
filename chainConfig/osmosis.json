@@ -43,7 +43,7 @@
       ],
       "source": {
         "sourceChannel": "channel-204",
-        "sourceIBCDenomToEvmos": "IBC/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
+        "sourceIBCDenomToEvmos": "ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
         "destinationChannel": "channel-0",
         "jsonRPC": ["https://rpc-osmosis.blockapsis.com/"]
       },
@@ -64,7 +64,7 @@
       ],
       "source": {
         "sourceChannel": "channel-227",
-        "sourceIBCDenomToEvmos": "IBC/A0646C045BA5F640EBE6AEA52F7CF380D27E891925419C9879104FB23D96B750",
+        "sourceIBCDenomToEvmos": "ibc/A0646C045BA5F640EBE6AEA52F7CF380D27E891925419C9879104FB23D96B750",
         "destinationChannel": "channel-7",
         "jsonRPC": ["https://osmosis-rpc.evmos.dev/"]
       },

@@ -42,7 +42,7 @@
       ],
       "source": {
         "sourceChannel": "channel-22",
-        "sourceIBCDenomToEvmos": "IBC/73D370D177CC659EA123B423D1AC194F0733537E5A346ECEA1DCBC8FEBB45FD3",
+        "sourceIBCDenomToEvmos": "ibc/73D370D177CC659EA123B423D1AC194F0733537E5A346ECEA1DCBC8FEBB45FD3",
         "destinationChannel": "channel-21",
         "jsonRPC": ["https://axelar-mainnet-rpc.allthatnode.com:26657"]
       },

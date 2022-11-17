@@ -45,7 +45,7 @@
       ],
       "source": {
         "sourceChannel": "channel-292",
-        "sourceIBCDenomToEvmos": "IBC/19DD710119533524061885A6F190B18AF28D9537E2BAE37F32A62C1A25979287",
+        "sourceIBCDenomToEvmos": "ibc/19DD710119533524061885A6F190B18AF28D9537E2BAE37F32A62C1A25979287",
         "destinationChannel": "channel-3",
         "jsonRPC": ["https://cosmoshub-rpc.stakely.io/"]
       },
@@ -66,7 +66,7 @@
       ],
       "source": {
         "sourceChannel": "channel-487",
-        "sourceIBCDenomToEvmos": "IBC/6411C683787EFE64958A7724DA754AF7BC13EED43142D210BC40FADF6583EB10",
+        "sourceIBCDenomToEvmos": "ibc/6411C683787EFE64958A7724DA754AF7BC13EED43142D210BC40FADF6583EB10",
         "destinationChannel": "channel-17",
         "jsonRPC": []
       },
