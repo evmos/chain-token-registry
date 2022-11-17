@@ -50,27 +50,6 @@
         "jsonRPC": ["https://cosmoshub-rpc.stakely.io/"]
       },
       "configurationType": "mainnet"
-    },
-    {
-      "chainId": "theta-testnet-001",
-      "chainName": "Cosmos Testnet",
-      "clientId": "07-tendermint-23",
-      "rest": [],
-      "rpc": [],
-      "currencies": [
-        {
-          "coinDenom": "ATOM",
-          "coinMinDenom": "uatom",
-          "coinDecimals": "6"
-        }
-      ],
-      "source": {
-        "sourceChannel": "channel-487",
-        "sourceIBCDenomToEvmos": "ibc/6411C683787EFE64958A7724DA754AF7BC13EED43142D210BC40FADF6583EB10",
-        "destinationChannel": "channel-17",
-        "jsonRPC": []
-      },
-      "configurationType": "testnet"
     }
   ]
 }

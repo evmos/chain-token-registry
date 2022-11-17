@@ -47,27 +47,6 @@
         "jsonRPC": ["https://axelar-mainnet-rpc.allthatnode.com:26657"]
       },
       "configurationType": "mainnet"
-    },
-    {
-      "chainId": "axelar-testnet-lisbon-3",
-      "chainName": "Axelar Testnet",
-      "clientId": "",
-      "rest": ["https://axelar-lisbon-rpc.allthatnode.com:1317"],
-      "rpc": ["https://axelartest-rpc.quickapi.com/"],
-      "currencies": [
-        {
-          "coinDenom": "",
-          "coinMinDenom": "",
-          "coinDecimals": "6"
-        }
-      ],
-      "source": {
-        "sourceChannel": "channel-",
-        "sourceIBCDenomToEvmos": "",
-        "destinationChannel": "channel-",
-        "jsonRPC": ["https://axelar-lisbon-rpc.allthatnode.com:26657"]
-      },
-      "configurationType": "testnet"
     }
   ]
 }

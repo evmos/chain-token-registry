@@ -48,27 +48,6 @@
         "jsonRPC": ["https://rpc-osmosis.blockapsis.com/"]
       },
       "configurationType": "mainnet"
-    },
-    {
-      "chainId": "osmo-test-4",
-      "chainName": "Osmosis Testnet",
-      "clientId": "07-tendermint-3",
-      "rest": ["https://osmosis-api.evmos.dev/"],
-      "rpc": ["https://osmosis-grpc.evmos.dev"],
-      "currencies": [
-        {
-          "coinDenom": "OSMO",
-          "coinMinDenom": "uosmo",
-          "coinDecimals": "6"
-        }
-      ],
-      "source": {
-        "sourceChannel": "channel-227",
-        "sourceIBCDenomToEvmos": "ibc/A0646C045BA5F640EBE6AEA52F7CF380D27E891925419C9879104FB23D96B750",
-        "destinationChannel": "channel-7",
-        "jsonRPC": ["https://osmosis-rpc.evmos.dev/"]
-      },
-      "configurationType": "testnet"
     }
   ]
 }
