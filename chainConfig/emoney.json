@@ -43,7 +43,7 @@
       ],
       "source": {
         "sourceChannel": "channel-28",
-        "sourceIBCDenomToEvmos": "IBC/10E2FD6A073F2746143FFF978B61C3813B773CBC0647E850A4A562FFFA8F9732",
+        "sourceIBCDenomToEvmos": "ibc/10E2FD6A073F2746143FFF978B61C3813B773CBC0647E850A4A562FFFA8F9732",
         "destinationChannel": "channel-24",
         "jsonRPC": [
           "https://rpc-emoney.keplr.app"

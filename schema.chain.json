@@ -113,13 +113,17 @@
             "type": "array",
             "items": {
               "type": "string"
-            }
+            },
+            "minItems": 3,
+            "uniqueItems": true
           },
           "jrpc": {
             "type": "array",
             "items": {
               "type": "string"
-            }
+            },
+            "minItems": 3,
+            "uniqueItems": true
           },
           "web3": {
             "type": "array",
@@ -173,6 +177,7 @@
                 "items": {
                   "type": "string"
                 },
+                "minItems": 1,
                 "description": "Tendermint endpoint link or using port 26657"
               }
             }

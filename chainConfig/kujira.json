@@ -54,7 +54,7 @@
       ],
       "source": {
         "sourceChannel": "channel-23",
-        "sourceIBCDenomToEvmos": "IBC/F3AA7EF362EC5E791FE78A0F4CCC69FEE1F9A7485EB1A8CAB3F6601C00522F10",
+        "sourceIBCDenomToEvmos": "ibc/F3AA7EF362EC5E791FE78A0F4CCC69FEE1F9A7485EB1A8CAB3F6601C00522F10",
         "destinationChannel": "channel-18",
         "jsonRPC": [
           "https://rpc.kaiyo.kujira.setten.io"
