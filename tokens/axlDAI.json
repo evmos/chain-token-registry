@@ -21,5 +21,6 @@
     "handlingAction": "Deposit and Withdraw"
   }],
   "coingeckoId": "dai",
-  "category": "stablecoin"
+  "category": "stablecoin",
+  "parentNetworkCoinSource": "Axelar"
 }
