@@ -14,11 +14,11 @@
     },
     "imgSrc": {
       "type": "string",
-      "description": "Link must be SVG link only"
+      "description": "Link must be SVG link only. If this image is coming from Github, make sure it has a pattern of 'https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain}/images/${coin}.svg' and the link directly opens the image only and not the site of Github with the image."
     },
     "pngSrc": {
       "type": "string",
-      "description": "Link must be png source"
+      "description": "Link must be png source. If this image is coming from Github, make sure it has a pattern of 'https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain}/images/${coin}.png' and the link directly opens the image only and not the site of Github with the image."
     },
     "type": {
       "type": "string",
@@ -80,9 +80,9 @@
       "default": "none",
       "enum": ["bitcoin", "ethereum", "stablecoin", "cosmos", "polygon", "none"]
     },
-    "parentNetworkCoinSource": {
+    "coinSourcePrefix": {
       "type": "string",
-      "description": "Use this field to declare if the coin is part of a network's ecosystem, like for example, gWBTC is part of Gravity. If it is the parentNetworkCoinSource, then the response will be 'none'."
+      "description": "Use this field to declare if the coin is part of a network's ecosystem, like for example, gWBTC is part of Gravity. If the coin is the main network coin, then the response will be itself still. the string here should match the network prefix."
     },
     "handledByExternalUI": {
       "type": "array",
@@ -116,7 +116,7 @@
     "erc20Address",
     "ibc",
     "coingeckoId",
-    "parentNetworkCoinSource",
+    "coinSourcePrefix",
     "category"
   ]
 }

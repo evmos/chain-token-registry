@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": false,
   "coingeckoId": "stride-staked-atom",
-  "category": "cosmos"
+  "category": "cosmos",
+  "coinSourcePrefix": "stride"
 }

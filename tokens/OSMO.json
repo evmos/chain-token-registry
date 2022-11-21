@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": false,
   "coingeckoId": "osmosis",
-  "category": "cosmos"
+  "category": "cosmos",
+  "coinSourcePrefix": "osmo"
 }
