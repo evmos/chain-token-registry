@@ -2,6 +2,8 @@ on:
   pull_request:
     branches:
       - main
+      - up
+      - workflow-test
 name: Pull request workflow
 jobs:
   validate_assetlists:
