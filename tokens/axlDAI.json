@@ -22,5 +22,5 @@
   }],
   "coingeckoId": "dai",
   "category": "stablecoin",
-  "parentNetworkCoinSource": "Axelar"
+  "coinSourcePrefix": "axelar"
 }
