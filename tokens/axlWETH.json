@@ -21,6 +21,7 @@
       "handlingAction": "Deposit and Withdraw"
     }],
     "coingeckoId": "weth",
-    "category": "ethereum"
+    "category": "ethereum",
+    "coinSourcePrefix": "axelar"
   }
  

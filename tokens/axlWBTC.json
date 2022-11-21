@@ -21,6 +21,7 @@
       "handlingAction": "Deposit and Withdraw"
     }],
     "coingeckoId": "wrapped-bitcoin",
-    "category": "bitcoin"
+    "category": "bitcoin",
+    "coinSourcePrefix": "axelar"
   }
   

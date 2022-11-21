@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": false,
   "coingeckoId": "juno-network",
-  "category": "cosmos"
+  "category": "cosmos",
+  "coinSourcePrefix": "juno"
 }

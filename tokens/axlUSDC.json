@@ -21,5 +21,6 @@
     "handlingAction": "Deposit and Withdraw"
   }],
   "coingeckoId": "usd-coin",
-  "category": "stablecoin"
+  "category": "stablecoin",
+  "coinSourcePrefix": "axelar"
 }

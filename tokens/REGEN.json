@@ -2,7 +2,7 @@
   "coinDenom": "REGEN",
   "minCoinDenom": "uregen",
   "imgSrc": "",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/36DCDCDFB1D0D723546878E241BC5800D27214E1E1DA31A4E424DE2280B0B0EE",
@@ -17,5 +17,6 @@
   },
   "hideFromTestnet": false,
   "coingeckoId": "stargaze",
-  "category": "cosmos"
+  "category": "cosmos",
+  "coinSourcePrefix": "regen"
 }
