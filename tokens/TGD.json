@@ -1,0 +1,22 @@
+{
+  "coinDenom": "TGD",
+  "minCoinDenom": "utgd",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+  "description": "The native token of Tgrade",
+  "name": "Tgrade",
+  "channel": "channel-34",
+  "isEnabled": true,
+  "erc20Address": "0x4AF57825b86Abf93D4F9D720bEF7c1C1b300A6F3",
+  "ibc": {
+    "sourceDenom": "utgd",
+    "source": "Tgrade"
+  },
+  "hideFromTestnet": true,
+  "coingeckoId": "tgrade",
+  "category": "cosmos",
+  "coinSourcePrefix": "tgrade"
+}
