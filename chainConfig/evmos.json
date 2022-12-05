@@ -58,7 +58,7 @@
         "sourceChannel": "",
         "sourceIBCDenomToEvmos": "",
         "destinationChannel": "",
-        "jsonRPC": [""]
+        "jsonRPC": []
       },
       "explorer": [
         {
@@ -71,6 +71,38 @@
         }
       ],
       "configurationType": "mainnet",
+      "mintscanId": "evmos"
+    },
+    {
+      "chainId": "evmos_9000-4",
+      "chainName": "Evmos Testnet",
+      "clientId": "",
+      "rest": ["https://rest.bd.evmos.dev:1317"],
+      "rpc": ["https://grpc.bd.evmos.dev:9090"],
+      "currencies": [
+        {
+          "coinDenom": "TEVMOS",
+          "coinMinDenom": "atevmos",
+          "coinDecimals": "18"
+        }
+      ],
+      "source": {
+        "sourceChannel": "",
+        "sourceIBCDenomToEvmos": "",
+        "destinationChannel": "",
+        "jsonRPC": ["https://tendermint.bd.evmos.dev:26657"]
+      },
+      "explorer": [
+        {
+          "link": "https://testnet.mintscan.io/evmos-testnet",
+          "type": "cosmos"
+        },
+        {
+          "link": "https://evm.evmos.dev",
+          "type": "evm"
+        }
+      ],
+      "configurationType": "testnet",
       "mintscanId": "evmos"
     }
   ]
