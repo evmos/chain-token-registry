@@ -87,8 +87,7 @@
           "rpc",
           "currencies",
           "source",
-          "configurationType",
-          "mintscanId"
+          "configurationType"
         ],
         "properties": {
           "chainId": {
