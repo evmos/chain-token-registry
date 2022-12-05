@@ -87,7 +87,8 @@
           "rpc",
           "currencies",
           "source",
-          "configurationType"
+          "configurationType",
+          "mintscanId"
         ],
         "properties": {
           "chainId": {
@@ -215,7 +216,7 @@
             ],
             "description": "Must select either mainnet or testnet"
           },
-          "mintscanId": {
+          "mintscanId": { 
             "type": "string",
             "description": "Mintscan chain id."
           }
