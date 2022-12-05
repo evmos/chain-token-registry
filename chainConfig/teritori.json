@@ -45,7 +45,8 @@
                     "https://rpc.mainnet.teritori.com"
                 ]
             },
-            "configurationType": "mainnet"
+            "configurationType": "mainnet",
+            "mintscanId": "teritori"
         }
     ]
 }

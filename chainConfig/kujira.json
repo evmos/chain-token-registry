@@ -60,7 +60,8 @@
           "https://rpc.kaiyo.kujira.setten.io"
         ]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "mintscanId": "kujira"
     }
   ]
 }

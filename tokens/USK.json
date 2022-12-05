@@ -18,6 +18,5 @@
   "hideFromTestnet": false,
   "coingeckoId": "usk",
   "category": "stablecoin",
-  "coinSourcePrefix": "kujira",
-  "mintscanId": "kujira"
+  "coinSourcePrefix": "kujira"
 }

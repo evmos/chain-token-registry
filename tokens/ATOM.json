@@ -18,6 +18,5 @@
   "hideFromTestnet": false,
   "coingeckoId": "cosmos",
   "category": "cosmos",
-  "coinSourcePrefix": "cosmos",
-  "mintscanId": "cosmos"
+  "coinSourcePrefix": "cosmos"
 }

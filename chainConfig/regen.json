@@ -44,7 +44,8 @@
           "https://rpc-regen.ecostake.com"
         ]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "mintscanId": "regen"
     }
   ]
 }

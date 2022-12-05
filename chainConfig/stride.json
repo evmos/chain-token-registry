@@ -53,7 +53,8 @@
           "https://stride-rpc.polkachu.com:443"
         ]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "mintscanId": "stride"
     }
   ]
 }

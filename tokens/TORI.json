@@ -18,6 +18,5 @@
     "hideFromTestnet": true,
     "coingeckoId": "teritori",
     "category": "cosmos",
-    "coinSourcePrefix": "tori",
-    "mintscanId": "teritori"
+    "coinSourcePrefix": "tori"
 }

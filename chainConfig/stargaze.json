@@ -56,7 +56,8 @@
           "stargaze-grpc.polkachu.com:13790"
         ]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "mintscanId": "stargaze"
     }
   ]
 }

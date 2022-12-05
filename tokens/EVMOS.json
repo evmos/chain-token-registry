@@ -18,6 +18,5 @@
   "hideFromTestnet": false,
   "coingeckoId": "evmos",
   "category": "cosmos",
-  "coinSourcePrefix": "evmos",
-  "mintscanId": "evmos"
+  "coinSourcePrefix": "evmos"
 }

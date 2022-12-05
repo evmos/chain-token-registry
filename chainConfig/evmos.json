@@ -70,7 +70,8 @@
           "type": "evm"
         }
       ],
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "mintscanId": "evmos"
     },
     {
       "chainId": "evmos_9000-4",
@@ -101,7 +102,8 @@
           "type": "evm"
         }
       ],
-      "configurationType": "testnet"
+      "configurationType": "testnet",
+      "mintscanId": "evmos"
     }
   ]
 }
