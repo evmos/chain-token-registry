@@ -101,10 +101,6 @@
           }
         }
       }
-    },
-    "mintscanId": {
-      "type": "string",
-      "description": "Mintscan chain id."
     }
   },
   "required": [

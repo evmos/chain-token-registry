@@ -214,6 +214,10 @@
               "testnet"
             ],
             "description": "Must select either mainnet or testnet"
+          },
+          "mintscanId": {
+            "type": "string",
+            "description": "Mintscan chain id."
           }
         }
       }
