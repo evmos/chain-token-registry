@@ -18,5 +18,6 @@
   "hideFromTestnet": false,
   "coingeckoId": "e-money-eur",
   "category": "stablecoin",
-  "coinSourcePrefix": "emoney"
+  "coinSourcePrefix": "emoney",
+  "mintscanId": "emoney"
 }

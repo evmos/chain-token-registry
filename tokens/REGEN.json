@@ -18,5 +18,6 @@
   "hideFromTestnet": false,
   "coingeckoId": "stargaze",
   "category": "cosmos",
-  "coinSourcePrefix": "regen"
+  "coinSourcePrefix": "regen",
+  "mintscanId": "regen"
 }

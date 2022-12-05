@@ -18,5 +18,6 @@
   "hideFromTestnet": false,
   "coingeckoId": "osmosis",
   "category": "cosmos",
-  "coinSourcePrefix": "osmo"
+  "coinSourcePrefix": "osmo",
+  "mintscanId": "osmosis"
 }

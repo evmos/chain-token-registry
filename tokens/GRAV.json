@@ -18,5 +18,6 @@
   "hideFromTestnet": true,
   "coingeckoId": "graviton",
   "category": "cosmos",
-  "coinSourcePrefix": "gravity"
+  "coinSourcePrefix": "gravity",
+  "mintscanId": "gravity-bridge"
 }
