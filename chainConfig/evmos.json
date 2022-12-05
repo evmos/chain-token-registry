@@ -58,7 +58,7 @@
         "sourceChannel": "",
         "sourceIBCDenomToEvmos": "",
         "destinationChannel": "",
-        "jsonRPC": []
+        "jsonRPC": [""]
       },
       "explorer": [
         {
