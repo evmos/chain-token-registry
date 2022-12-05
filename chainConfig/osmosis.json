@@ -33,7 +33,7 @@
         "https://rpc.osmosis.zone",
         "https://rpc.osmosis.interbloc.org"
       ],
-      "rpc": [],
+      "rpc": [""],
       "currencies": [
         {
           "coinDenom": "OSMO",
