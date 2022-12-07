@@ -61,7 +61,7 @@
         ]
       },
       "configurationType": "mainnet",
-      "mintscanId": "https://www.mintscan.io/kujira/txs"
+      "explorerTxUrl": "https://www.mintscan.io/kujira/txs"
     }
   ]
 }

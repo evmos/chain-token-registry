@@ -71,7 +71,7 @@
         }
       ],
       "configurationType": "mainnet",
-      "explorerBaseUrl": "https://www.mintscan.io/evmos/txs"
+      "explorerTxUrl": "https://www.mintscan.io/evmos/txs"
     }
   ]
 }

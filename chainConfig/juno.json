@@ -45,7 +45,7 @@
         "jsonRPC": ["https://rpc-juno.whispernode.com"]
       },
       "configurationType": "mainnet",
-      "explorerBaseUrl": "https://www.mintscan.io/juno/txs"
+      "explorerTxUrl": "https://www.mintscan.io/juno/txs"
     }
   ]
 }

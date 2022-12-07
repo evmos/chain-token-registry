@@ -45,7 +45,7 @@
         ]
       },
       "configurationType": "mainnet",
-      "mintscanId": "https://www.mintscan.io/regen/txs"
+      "explorerTxUrl": "https://www.mintscan.io/regen/txs"
     }
   ]
 }
