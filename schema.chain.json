@@ -215,9 +215,9 @@
             ],
             "description": "Must select either mainnet or testnet"
           },
-          "mintscanId": { 
+          "explorerBaseUrl": { 
             "type": "string",
-            "description": "Mintscan chain id."
+            "description": "Explorer base URL for the chain, i.e mintscan."
           }
         }
       }
