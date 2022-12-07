@@ -215,9 +215,9 @@
             ],
             "description": "Must select either mainnet or testnet"
           },
-          "explorerBaseUrl": { 
+          "explorerTxUrl": { 
             "type": "string",
-            "description": "Explorer base URL for the chain, i.e mintscan."
+            "description": "Explorer tx URL for the chain, i.e https://www.mintscan.io/evmos/txs."
           }
         }
       }
