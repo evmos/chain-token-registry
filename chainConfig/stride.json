@@ -54,7 +54,7 @@
         ]
       },
       "configurationType": "mainnet",
-      "mintscanId": "stride"
+      "mintscanId": "https://www.mintscan.io/stride/txs"
     }
   ]
 }

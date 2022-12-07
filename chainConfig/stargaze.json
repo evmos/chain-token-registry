@@ -57,7 +57,7 @@
         ]
       },
       "configurationType": "mainnet",
-      "mintscanId": "stargaze"
+      "mintscanId": "https://www.mintscan.io/stargaze/txs"
     }
   ]
 }

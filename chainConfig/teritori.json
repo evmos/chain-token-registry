@@ -46,7 +46,7 @@
                 ]
             },
             "configurationType": "mainnet",
-            "mintscanId": "teritori"
+            "mintscanId": "https://www.mintscan.io/teritori/txs"
         }
     ]
 }

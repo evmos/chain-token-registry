@@ -50,7 +50,7 @@
         "jsonRPC": ["https://cosmoshub-rpc.stakely.io/"]
       },
       "configurationType": "mainnet",
-      "mintscanId": "cosmos"
+      "explorerBaseUrl": "https://www.mintscan.io/cosmos/txs"
     }
   ]
 }

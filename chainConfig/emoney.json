@@ -50,7 +50,7 @@
         ]
       },
       "configurationType": "mainnet",
-      "mintscanId": "emoney"
+      "explorerBaseUrl": "https://www.mintscan.io/emoney/txs"
     }
   ]
 }

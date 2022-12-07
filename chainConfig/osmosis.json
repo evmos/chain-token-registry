@@ -48,7 +48,7 @@
         "jsonRPC": ["https://rpc-osmosis.blockapsis.com/"]
       },
       "configurationType": "mainnet",
-      "mintscanId": "osmosis"
+      "mintscanId": "https://www.mintscan.io/osmosis/txs"
     }
   ]
 }

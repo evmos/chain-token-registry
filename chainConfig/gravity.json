@@ -42,7 +42,7 @@
         "jsonRPC": ["https://gravitychain.io:26657/"]
       },
       "configurationType": "mainnet",
-      "mintscanId": "gravity-bridge"
+      "explorerBaseUrl": "https://www.mintscan.io/gravity-bridge/txs"
     }
   ]
 }
