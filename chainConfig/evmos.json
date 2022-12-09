@@ -78,7 +78,7 @@
       "identifier": "EvmosTest",
       "chainName": "Evmos Testnet",
       "clientId": "",
-      "rest": ["https://rest.bd.evmos.dev:1317"],
+      "rest": ["https://rest.bd.evmos.dev:1317", "https://rest.bd.evmos.dev:1317", "https://rest.bd.evmos.dev:1317"],
       "rpc": ["https://grpc.bd.evmos.dev:9090"],
       "currencies": [
         {
