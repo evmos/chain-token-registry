@@ -46,7 +46,8 @@
         "destinationChannel": "channel-21",
         "jsonRPC": ["https://axelar-mainnet-rpc.allthatnode.com:26657"]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/axelar/txs"
     }
   ]
 }

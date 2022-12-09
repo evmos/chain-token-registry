@@ -45,7 +45,8 @@
                     "https://rpc.mainnet.teritori.com"
                 ]
             },
-            "configurationType": "mainnet"
+            "configurationType": "mainnet",
+            "explorerTxUrl": "https://www.mintscan.io/teritori/txs"
         }
     ]
 }

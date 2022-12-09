@@ -44,7 +44,8 @@
           "https://rpc-regen.ecostake.com"
         ]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/regen/txs"
     }
   ]
 }

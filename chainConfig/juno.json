@@ -44,7 +44,8 @@
         "destinationChannel": "channel-5",
         "jsonRPC": ["https://rpc-juno.whispernode.com"]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/juno/txs"
     }
   ]
 }
