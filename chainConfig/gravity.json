@@ -12,6 +12,7 @@
     {
       "chainId": "gravity-bridge-3",
       "chainName": "Gravity Bridge",
+      "identifier": "Gravity",
       "clientId": "07-tendermint-3",
       "rest": [
         "https://gravitychain.io:1317",

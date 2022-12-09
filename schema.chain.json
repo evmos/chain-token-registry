@@ -81,6 +81,7 @@
         "type": "object",
         "required": [
           "chainId",
+          "identifier",
           "chainName",
           "clientId",
           "rest",
@@ -93,6 +94,10 @@
           "chainId": {
             "type": "string",
             "description": "Chain ID should specific to the environment, i.e. Testnet and Mainnet are different"
+          },
+          "identifier": {
+            "type": "string",
+            "description": "Global identifier to be used by both client and backend as default reference for the chain"
           },
           "chainName": {
             "type": "string",

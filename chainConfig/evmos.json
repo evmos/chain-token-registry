@@ -17,6 +17,7 @@
     {
       "chainId": "evmos_9001-2",
       "chainName": "Evmos",
+      "identifier": "Evmos",
       "clientId": "",
       "rest": [
         "https://lcd-evmos.whispernode.com",

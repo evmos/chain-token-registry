@@ -12,6 +12,7 @@
     {
       "chainId": "emoney-3",
       "chainName": "EMoney",
+      "identifier": "e-Money",
       "clientId": "07-tendermint-75",
       "rest": [
         "https://lcd-emoney.keplr.app",

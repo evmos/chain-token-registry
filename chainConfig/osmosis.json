@@ -12,6 +12,7 @@
     {
       "chainId": "osmosis-1",
       "chainName": "Osmosis",
+      "identifier": "Osmosis",
       "clientId": "07-tendermint-0",
       "rest": [
         "https://osmosis-lcd.quickapi.com:443",
