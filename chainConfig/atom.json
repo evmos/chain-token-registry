@@ -50,7 +50,8 @@
         "destinationChannel": "channel-3",
         "jsonRPC": ["https://cosmoshub-rpc.stakely.io/"]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/cosmos/txs"
     }
   ]
 }

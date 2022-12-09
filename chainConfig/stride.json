@@ -54,7 +54,8 @@
           "https://stride-rpc.polkachu.com:443"
         ]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/stride/txs"
     }
   ]
 }

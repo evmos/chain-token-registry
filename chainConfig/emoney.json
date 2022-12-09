@@ -50,7 +50,8 @@
           "https://rpc-emoney.keplr.app"
         ]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/emoney/txs"
     }
   ]
 }

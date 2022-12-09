@@ -34,7 +34,7 @@
         "https://rpc.osmosis.zone",
         "https://rpc.osmosis.interbloc.org"
       ],
-      "rpc": [],
+      "rpc": [""],
       "currencies": [
         {
           "coinDenom": "OSMO",
@@ -48,7 +48,8 @@
         "destinationChannel": "channel-0",
         "jsonRPC": ["https://rpc-osmosis.blockapsis.com/"]
       },
-      "configurationType": "mainnet"
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/osmosis/txs"
     }
   ]
 }
