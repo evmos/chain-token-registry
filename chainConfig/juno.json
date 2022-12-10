@@ -12,6 +12,7 @@
     {
       "chainId": "juno-1",
       "chainName": "Juno",
+      "identifier": "Juno",
       "clientId": "07-tendermint-14",
       "rest": [
         "https://lcd-juno.itastakers.com",

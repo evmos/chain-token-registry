@@ -12,6 +12,7 @@
     {
       "chainId": "regen-1",
       "chainName": "Regen Network",
+      "identifier": "Regen",
       "clientId": "07-tendermint-67",
       "rest": [
         "https://rest-regen.ecostake.com",

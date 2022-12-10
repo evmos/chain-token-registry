@@ -12,6 +12,7 @@
         {
             "chainId": "teritori-1",
             "chainName": "teritori",
+            "identifier": "Teritori",
             "clientId": "07-tendermint-89",
             "rest": [
                 "https://teritori-api.lavenderfive.com:443",

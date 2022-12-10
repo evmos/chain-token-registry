@@ -11,6 +11,7 @@
   "configurations": [
     {
       "chainId": "axelar-dojo-1",
+      "identifier": "Axelar",
       "chainName": "Axelar",
       "clientId": "07-tendermint-69",
       "rest": [

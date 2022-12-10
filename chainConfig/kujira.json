@@ -12,6 +12,7 @@
     {
       "chainId": "kaiyo-1",
       "chainName": "kujira",
+      "identifier": "Kujira",
       "clientId": "07-tendermint-53",
       "rest": [
         "https://lcd.kaiyo.kujira.setten.io",

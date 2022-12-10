@@ -12,6 +12,7 @@
     {
       "chainId": "stride-1",
       "chainName": "stride",
+      "identifier": "Stride",
       "rpc": [
         "https://stride-rpc.polkachu.com:443"
       ],

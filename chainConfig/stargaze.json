@@ -12,6 +12,7 @@
     {
       "chainId": "stargaze-1",
       "chainName": "Stargaze",
+      "identifier": "Stars",
       "clientId": "07-tendermint-41",
       "rest": [
         "https://rest.stargaze-apis.com",
