@@ -39,7 +39,11 @@
         "https://rpc.stargaze.silentvalidator.com"
       ],
       "rpc": [
-        "https://rpc.stargaze-apis.com/"
+        "https://rpc.stargaze-apis.com/",
+        "https://rpc-stargaze.pupmos.network",
+        "https://rpc-stargaze.ezstaking.dev",
+        "https://rpc.stars.kingnodes.com/",
+        "https://stargaze-rpc.polkachu.com"
       ],
       "currencies": [
         {
