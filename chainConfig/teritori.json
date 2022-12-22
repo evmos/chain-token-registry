@@ -39,9 +39,9 @@
                 }
             ],
             "source": {
-                "sourceChannel": "channel-35",
+                "sourceChannel": "channel-1",
                 "sourceIBCDenomToEvmos": "IBC/18D5C3CDDF1DEE108CE4BF0A7E0262D94D11AB06A37F68EA38F70CC92C5D894F",
-                "destinationChannel": "channel-1",
+                "destinationChannel": "channel-35",
                 "jsonRPC": [
                     "https://rpc.mainnet.teritori.com"
                 ]
