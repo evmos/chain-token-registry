@@ -9,7 +9,6 @@
     "bip44"
   ],
   "properties": {
-
     "prefix": {
       "type": "string",
       "description": "Chain prefix i.e. evmos"
