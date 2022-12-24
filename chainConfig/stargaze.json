@@ -33,7 +33,7 @@
       "rpc": [
         "https://rpc.stargaze-apis.com/",
         "https://rpc-stargaze.pupmos.network",
-        "https://rpc-stargaze.ezstaking.dev",
+        "https://rpc-stargaze.ezstaking.dev"
       ],
       "currencies": [
         {
