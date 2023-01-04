@@ -3,12 +3,12 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Chain Registry via Evmos Governance",
   "type": "object",
+  "required": [
+    "gasPriceStep",
+    "prefix",
+    "bip44"
+  ],
   "properties": {
-    "required": [
-      "gasPriceStep",
-      "prefix",
-      "bip44"
-    ],
     "prefix": {
       "type": "string",
       "description": "Chain prefix i.e. evmos"
@@ -32,12 +32,7 @@
         "high": {
           "type": "string",
           "description": "Amount of gas for High"
-        },
-        "required": [
-          "low",
-          "medium",
-          "high"
-        ]
+        }
       }
     },
     "feeMarket": {
@@ -220,7 +215,7 @@
             ],
             "description": "Must select either mainnet or testnet"
           },
-          "explorerTxUrl": { 
+          "explorerTxUrl": {
             "type": "string",
             "description": "Explorer tx URL for the chain, i.e https://www.mintscan.io/evmos/txs."
           }
