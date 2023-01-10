@@ -31,7 +31,7 @@
         "https://comdex-rpc.lavenderfive.com",
         "https://rpc.comdex.chaintools.tech"
       ],
-      "rpc": [""],
+      "rpc": ["https://rpc.comdex.one"],
       "currencies": [
         {
           "coinDenom": "CMDX",
