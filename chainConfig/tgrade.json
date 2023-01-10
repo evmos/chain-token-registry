@@ -1,0 +1,41 @@
+{
+  "prefix": "tgrade",
+  "gasPriceStep": {
+    "low": "0.05",
+    "average": "0.06",
+    "high": "0.1"
+  },
+  "bip44": {
+    "coinType": "118"
+  },
+  "configurations": [
+    {
+      "chainId": "tgrade-mainnet-1",
+      "chainName": "Tgrade",
+      "clientId": "07-tendermint-88",
+      "rest": [
+        "https://api.mainnet-1.tgrade.confio.run",
+        "https://lcd.tgrade.posthuman.digital"
+      ],
+      "jrpc": [
+        "https://rpc.mainnet-1.tgrade.confio.run",
+        "https://rpc.tgrade.posthuman.digital"
+      ],
+      "rpc": [],
+      "currencies": [
+        {
+        "coinDenom": "TGD",
+        "coinMinDenom": "utgd",
+        "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-9",
+        "sourceIBCDenomToEvmos": "ibc/46AB1362B4446BCE0FD7D2F247FFCA8CC39BC6CA7AEAD03C77CABBD1CB41E5C9",
+        "destinationChannel": "channel-34",
+        "jsonRPC": ["https://rpc.mainnet-1.tgrade.confio.run"]
+      },
+      "configurationType": "mainnet"
+    }
+  ]
+}
