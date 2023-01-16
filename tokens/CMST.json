@@ -1,0 +1,22 @@
+{
+  "coinDenom": "CMST",
+  "minCoinDenom": "ucmst",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/9EC8A1701813BB7B73BFED2496009ABB2C8BF187E6CDFA788D77F68E08BC05CD",
+  "description": "An over-collateralized soft-pegged token to the USD on the Comdex chain",
+  "name": "CMST Stablecoin of Harbor protocol",
+  "channel": "channel-26",
+  "isEnabled": true,
+  "erc20Address": "0x9d6F2a9fDB32708e1AC07788cc29D6125ac73027",
+  "ibc": {
+    "sourceDenom": "ucmst",
+    "source": "Comdex"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "",
+  "category": "stablecoin",
+  "coinSourcePrefix": "cmdx"
+}
