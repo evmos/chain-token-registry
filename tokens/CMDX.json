@@ -18,5 +18,5 @@
   "hideFromTestnet": false,
   "coingeckoId": "comdex",
   "category": "cosmos",
-  "coinSourcePrefix": "cmdx"
+  "coinSourcePrefix": "comdex"
 }

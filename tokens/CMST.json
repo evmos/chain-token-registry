@@ -18,5 +18,5 @@
   "hideFromTestnet": false,
   "coingeckoId": "",
   "category": "stablecoin",
-  "coinSourcePrefix": "cmdx"
+  "coinSourcePrefix": "comdex"
 }
