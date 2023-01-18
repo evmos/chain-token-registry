@@ -16,7 +16,7 @@
     "source": "Comdex"
   },
   "hideFromTestnet": false,
-  "coingeckoId": "",
+  "coingeckoId": "composite",
   "category": "stablecoin",
   "coinSourcePrefix": "comdex"
 }
