@@ -11,7 +11,7 @@
   "properties": {
     "prefix": {
       "type": "string",
-      "description": "Chain prefix i.e. evmos"
+      "description": "Chain prefix i.e. evmos. This is the field whereby all the address will start off (i.e. evmos1ffttr...)"
     },
     "gasPriceStep": {
       "type": "object",
@@ -66,7 +66,7 @@
       "properties": {
         "coinType": {
           "type": "string",
-          "description": "Cosmos-based chains should be 118 while EVM-based chains are coin type 60"
+          "description": "Cosmos-based chains should be 118 while EVM-based chains are coin type 60. If you are entering a coinType that is not 60 or 118, please reach out, we love to chat."
         }
       }
     },
