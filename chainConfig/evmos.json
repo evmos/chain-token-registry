@@ -20,13 +20,12 @@
       "identifier": "Evmos",
       "clientId": "",
       "rest": [
-        "https://lcd-evmos.whispernode.com",
         "https://rest.bd.evmos.org:1317",
-        "https://lcd.evmos.ezstaking.io",
         "https://api-evmos-ia.cosmosia.notional.ventures",
-        "https://lcd.evmos.posthuman.digital",
         "https://api.evmos.interbloc.org",
-        "https://lcd.evmos.bh.rocks"
+        "https://lcd.evmos.bh.rocks",
+        "https://lcd.evmos.disperze.network",
+        "https://evmos-rest.publicnode.com"
       ],
       "jrpc": [
         "https://rpc-evmos.whispernode.com",
