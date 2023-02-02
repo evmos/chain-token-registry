@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
   "description": "The native token of Osmosis",
   "name": "Osmosis",
+  "tokenRepresentation": "OSMO",
   "channel": "channel-0",
   "isEnabled": true,
   "erc20Address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",

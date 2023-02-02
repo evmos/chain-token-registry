@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
   "description": "The native token of Gravity Bridge",
   "name": "Graviton",
+  "tokenRepresentation": "GRAVITON",
   "channel": "channel-8",
   "isEnabled": true,
   "erc20Address": "0x80b5a32E4F032B2a058b4F29EC95EEfEEB87aDcd",

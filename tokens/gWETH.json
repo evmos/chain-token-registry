@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/6B3FCE336C3465D3B72F7EFB4EB92FC521BC480FE9653F627A0BD0237DF213F3",
   "description": "Wrapped Ether via Gravity Bridge",
   "name": "Wrapped Ether",
+  "tokenRepresentation": "WETH",
   "channel": "channel-8",
   "isEnabled": true,
   "erc20Address": "0xc03345448969Dd8C00e9E4A85d2d9722d093aF8E",
