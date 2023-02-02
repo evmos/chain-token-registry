@@ -1,0 +1,52 @@
+{
+  "prefix": "comdex",
+  "gasPriceStep": {
+    "low": "0.005",
+    "average": "0.025",
+    "high": "0.04"
+  },
+  "bip44": {
+    "coinType": "118"
+  },
+  "configurations": [
+    {
+      "chainId": "comdex-1",
+      "chainName": "Comdex",
+      "identifier": "Comdex",
+      "clientId": "07-tendermint-79",
+      "rest": [
+        "https://rest.comdex.one",
+        "https://comdex-api.polkachu.com",
+        "https://api-comdex-ia.cosmosia.notional.ventures",
+        "https://comdex.mainnet.lcd.autostake.net",
+        "https://comdex-api.lavenderfive.com",
+        "https://api.comdex.chaintools.tech",
+        "https://api-comdex.zenchainlabs.io"
+      ],
+      "jrpc": [
+        "https://rpc.comdex.one",
+        "https://comdex-rpc.polkachu.com",
+        "https://rpc-comdex.zenchainlabs.io",
+        "https://rpc-comdex-ia.cosmosia.notional.ventures",
+        "https://comdex-rpc.lavenderfive.com",
+        "https://rpc.comdex.chaintools.tech"
+      ],
+      "rpc": ["https://rpc.comdex.one"],
+      "currencies": [
+        {
+          "coinDenom": "CMDX",
+          "coinMinDenom": "ucmdx",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-35",
+        "sourceIBCDenomToEvmos": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+        "destinationChannel": "channel-26",
+        "jsonRPC": ["https://rpc.comdex.one"]
+      },
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/comdex/txs"
+    }
+  ]
+}

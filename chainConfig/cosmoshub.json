@@ -11,7 +11,7 @@
   "configurations": [
     {
       "chainId": "cosmoshub-4",
-      "identifier": "Cosmos",
+      "identifier": "cosmoshub",
       "chainName": "Cosmos Hub",
       "clientId": "07-tendermint-3",
       "rest": [

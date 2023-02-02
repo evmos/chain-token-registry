@@ -1,0 +1,22 @@
+{
+  "coinDenom": "CMDX",
+  "minCoinDenom": "ucmdx",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+  "description": "The native token of Comdex",
+  "name": "Comdex",
+  "channel": "channel-26",
+  "isEnabled": true,
+  "erc20Address": "0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7",
+  "ibc": {
+    "sourceDenom": "ucmdx",
+    "source": "Comdex"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "comdex",
+  "category": "cosmos",
+  "coinSourcePrefix": "comdex"
+}

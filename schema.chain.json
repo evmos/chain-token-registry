@@ -3,15 +3,15 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Chain Registry via Evmos Governance",
   "type": "object",
+  "required": [
+    "gasPriceStep",
+    "prefix",
+    "bip44"
+  ],
   "properties": {
-    "required": [
-      "gasPriceStep",
-      "prefix",
-      "bip44"
-    ],
     "prefix": {
       "type": "string",
-      "description": "Chain prefix i.e. evmos"
+      "description": "Chain prefix i.e. evmos. This is the field whereby all the address will start off (i.e. evmos1ffttr...)"
     },
     "gasPriceStep": {
       "type": "object",
@@ -32,12 +32,7 @@
         "high": {
           "type": "string",
           "description": "Amount of gas for High"
-        },
-        "required": [
-          "low",
-          "medium",
-          "high"
-        ]
+        }
       }
     },
     "feeMarket": {
@@ -71,7 +66,7 @@
       "properties": {
         "coinType": {
           "type": "string",
-          "description": "Cosmos-based chains should be 118 while EVM-based chains are coin type 60"
+          "description": "Cosmos-based chains should be 118 while EVM-based chains are coin type 60. If you are entering a coinType that is not 60 or 118, please reach out, we love to chat."
         }
       }
     },
@@ -220,7 +215,7 @@
             ],
             "description": "Must select either mainnet or testnet"
           },
-          "explorerTxUrl": { 
+          "explorerTxUrl": {
             "type": "string",
             "description": "Explorer tx URL for the chain, i.e https://www.mintscan.io/evmos/txs."
           }

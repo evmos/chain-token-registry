@@ -16,31 +16,24 @@
       "clientId": "07-tendermint-41",
       "rest": [
         "https://rest.stargaze-apis.com",
-        "https://api.stargaze.pupmos.network",
         "https://api-stargaze.ezstaking.dev",
-        "https://api.stars.kingnodes.com",
         "https://api-stargaze-ia.cosmosia.notional.ventures",
-        "https://stargaze.c29r3.xyz:443/api",
-        "https://stargaze-rapipc.polkachu.com",
-        "https://api.stargaze.nodestake.top",
         "https://stargaze-api.ibs.team",
         "https://api-stargaze.d-stake.xyz",
         "https://api.stargaze.silentvalidator.com"
       ],
       "jrpc": [
         "https://rpc.stargaze-apis.com",
-        "https://rpc.stargaze.pupmos.network",
         "https://rpc-stargaze.ezstaking.dev",
-        "https://rpc.stars.kingnodes.com",
-        "https://stargaze-rpc.polkachu.com",
         "https://rpc-stargaze-ia.cosmosia.notional.ventures",
-        "https://rpc.stargaze.nodestake.top",
         "https://stargaze-rpc.ibs.team",
         "https://rpc-stargaze.d-stake.xyz",
         "https://rpc.stargaze.silentvalidator.com"
       ],
       "rpc": [
-        "https://rpc.stargaze-apis.com/"
+        "https://rpc.stargaze-apis.com/",
+        "https://rpc-stargaze.pupmos.network",
+        "https://rpc-stargaze.ezstaking.dev"
       ],
       "currencies": [
         {
