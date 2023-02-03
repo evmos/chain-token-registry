@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/47BEBD156D49678A8D85661D792EB364F875265D7593E165C339F2D4C5C4CBAB",
   "description": "An over-collateralized soft-pegged token to the USD on the Kujira chain",
   "name": "USK Stablecoin of Kujira",
+  "tokenRepresentation": "USK",
   "channel": "channel-18",
   "isEnabled": true,
   "erc20Address": "0x13974cf36984216C90D1F4FC815C156092feA396",

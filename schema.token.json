@@ -39,6 +39,10 @@
       "type": "string",
       "description": "Official name of the coin, i.e. EVMOS"
     },
+    "tokenRepresentation": {
+      "type": "string",
+      "description": "Single token representation,i.e. EVMOS, it's the grouping key for the assets page"
+    },
     "channel": {
       "type": "string",
       "description": "Channel must be active. Check https://www.mintscan.io/evmos/relayers and find the right network to see which channel is open on both ends. The value wanted here is the From side of Evmos."
@@ -96,7 +100,13 @@
           },
           "handlingAction": {
             "type": "string",
-            "enum": ["Deposit", "Withdraw", "Convert", "Deposit and Withdraw", "All"],
+            "enum": [
+              "Deposit",
+              "Withdraw",
+              "Convert",
+              "Deposit and Withdraw",
+              "All"
+            ],
             "description": "Specify if the external UI is for Deposit, Withdraw, Convert, or others."
           }
         }
@@ -112,6 +122,7 @@
     "cosmosDenom",
     "description",
     "name",
+    "tokenRepresentation",
     "channel",
     "erc20Address",
     "ibc",

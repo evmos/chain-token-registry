@@ -8,6 +8,7 @@
   "cosmosDenom": "aevmos",
   "description": "EVMOS",
   "name": "EVMOS",
+  "tokenRepresentation": "EVMOS",
   "channel": "",
   "isEnabled": true,
   "erc20Address": "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517",

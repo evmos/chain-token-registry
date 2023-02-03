@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/2B62892BD3F90ADE34E16E409303DFC2D6CD7B59CA85CC9D2B424F229CF3D590",
   "description": "Staking derivative stATOM for staked ATOM by Stride",
   "name": "Stride Staked Atom",
+  "tokenRepresentation": "ATOM",
   "channel": "channel-27",
   "isEnabled": true,
   "erc20Address": "0xc8B4d3e67238e38B20d38908646fF6F4F48De5EC",

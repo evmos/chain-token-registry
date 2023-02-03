@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
   "description": "Wrapped Bitcoin via Gravity Bridge",
   "name": "Wrapped Bitcoin",
+  "tokenRepresentation": "WBTC",
   "channel": "channel-8",
   "isEnabled": true,
   "erc20Address": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",

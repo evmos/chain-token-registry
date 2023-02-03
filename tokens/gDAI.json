@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
   "description": "Dai Stablecoin via Gravity Bridge",
   "name": "Dai Stablecoin",
+  "tokenRepresentation": "DAI",
   "channel": "channel-8",
   "isEnabled": true,
   "erc20Address": "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",

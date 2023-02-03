@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
   "description": "The native token of Comdex",
   "name": "Comdex",
+  "tokenRepresentation": "CMDX",
   "channel": "channel-26",
   "isEnabled": true,
   "erc20Address": "0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7",

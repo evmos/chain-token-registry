@@ -8,6 +8,7 @@
   "cosmosDenom": "ibc/CBA4784581AD4BEF308C536A3CD44D4A940A520E61B0D1E4FB115C539F61DEE5",
   "description": "DAI Stablecoin on Axelar",
   "name": "DAI by Axelar",
+  "tokenRepresentation": "DAI",
   "channel": "channel-21",
   "isEnabled": true,
   "erc20Address": "0x4A2a90D444DbB7163B5861b772f882BbA394Ca67",
@@ -16,10 +17,12 @@
     "source": "Axelar"
   },
   "hideFromTestnet": true,
-  "handledByExternalUI": [{
-    "url": "https://satellite.money/",
-    "handlingAction": "Deposit and Withdraw"
-  }],
+  "handledByExternalUI": [
+    {
+      "url": "https://satellite.money/",
+      "handlingAction": "Deposit and Withdraw"
+    }
+  ],
   "coingeckoId": "dai",
   "category": "stablecoin",
   "coinSourcePrefix": "axelar"
