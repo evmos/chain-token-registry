@@ -41,7 +41,7 @@
       ],
       "source": {
         "sourceChannel": "channel-35",
-        "sourceIBCDenomToEvmos": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
+        "sourceIBCDenomToEvmos": "ibc/D01562AB9C4CC84E06A84FFA213C7592508120C3F91EFFB1E62117D5932C2B1F",
         "destinationChannel": "channel-26",
         "jsonRPC": ["https://rpc.comdex.one"]
       },
