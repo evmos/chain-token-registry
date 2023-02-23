@@ -38,7 +38,7 @@
         "https://rpc.stride.silentvalidator.com",
         "https://stride.rpc.kjnodes.com"
       ],
-      "clientId": "07-tendermint-80",
+      "clientId": "25-tendermint-09",
       "currencies": [
         {
           "coinDenom": "STRD",
