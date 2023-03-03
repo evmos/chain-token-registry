@@ -1,0 +1,23 @@
+{
+  "coinDenom": "CRE",
+  "minCoinDenom": "ucre",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/B5AB26FB63C08E1C14B91B4DDC15CA4FE59737052B4432D8A3B328B66F6FE7A1",
+  "description": "The native token of Crecent Network",
+  "name": "Crescent Network",
+  "tokenRepresentation": "CRE",
+  "channel": "channel-11",
+  "isEnabled": true,
+  "erc20Address": "",
+  "ibc": {
+    "sourceDenom": "ucre",
+    "source": "crescent"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "crescent-network",
+  "category": "cosmos",
+  "coinSourcePrefix": "cre"
+}
