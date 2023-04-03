@@ -6,7 +6,7 @@
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/0830AFFC2F4F7CD24F9CEC07024FEA64CE3C5ABBC520DBD803BFA97BC3DCCA85",
-  "description": "Staking derivative stATOM for staked ATOM by Stride",
+  "description": "Staking derivative by Stride",
   "name": "Stride Staked Atom",
   "tokenRepresentation": "ATOM",
   "channel": "channel-25",

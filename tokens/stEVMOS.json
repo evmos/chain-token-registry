@@ -6,7 +6,7 @@
     "type": "IBC",
     "exponent": "18",
     "cosmosDenom": "ibc/C49FDA9CB980D813492E2DFFF255B01C46E629C73B2B468131F6FE6E14F55754",
-    "description": "Staking derivative stEVMOS for staked EVMOS by Stride",
+    "description": "Staking derivative by Stride",
     "name": "Stride Staked Evmos",
     "tokenRepresentation": "EVMOS",
     "channel": "channel-25",
