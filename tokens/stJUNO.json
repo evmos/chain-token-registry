@@ -6,7 +6,7 @@
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/D9C9DFD2B4021D16B01AC16ECD5A7933383C38F8331160583E0A5F34B30E1BA9",
-  "description": "Staking derivative stJUNO for staked JUNO by Stride",
+  "description": "Staking derivative by Stride",
   "name": "Stride Staked Juno",
   "tokenRepresentation": "JUNO",
   "channel": "channel-25",
