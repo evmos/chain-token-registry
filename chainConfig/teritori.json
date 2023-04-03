@@ -1,0 +1,53 @@
+{
+    "prefix": "tori",
+    "gasPriceStep": {
+        "low": "0.01",
+        "average": "0.025",
+        "high": "0.03"
+    },
+    "bip44": {
+        "coinType": "118"
+    },
+    "configurations": [
+        {
+            "chainId": "teritori-1",
+            "chainName": "teritori",
+            "identifier": "Teritori",
+            "clientId": "07-tendermint-89",
+            "rest": [
+                "https://teritori-api.lavenderfive.com:443",
+                "https://teritori-api.polkachu.com",
+                "https://api-teritori.nodeist.net",
+                "https://api.teritori.nodestake.top",
+                "https://rest.mainnet.teritori.com"
+            ],
+            "jrpc": [
+                "https://teritori-rpc.lavenderfive.com:443",
+                "https://teritori-rpc.polkachu.com",
+                "https://rpc-teritori.nodeist.net",
+                "https://rpc.teritori.nodestake.top",
+                "https://teritori.nodejumper.io"
+            ],
+            "rpc": [
+                "https://rpc.mainnet.teritori.com"
+            ],
+            "currencies": [
+                {
+                    "coinDenom": "TORI",
+                    "coinMinDenom": "utori",
+                    "coinDecimals": "6"
+                }
+            ],
+            "source": {
+                "sourceChannel": "channel-1",
+                "sourceIBCDenomToEvmos": "ibc/6993F2B27985C9363D3B94D702111940055833A2BA86DA93F33A67D03E4D1B7D",
+                "destinationChannel": "channel-35",
+                "jsonRPC": [
+                    "https://rpc.mainnet.teritori.com"
+                ]
+            },
+            "configurationType": "mainnet",
+            "explorerTxUrl": "https://www.mintscan.io/teritori/txs"
+        }
+    ]
+}
