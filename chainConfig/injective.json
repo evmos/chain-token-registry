@@ -27,7 +27,7 @@
         {
           "coinDenom": "INJ",
           "coinMinimalDenom": "inj",
-          "coinDecimals": 18
+          "coinDecimals": "18"
         }
       ],
       "source": {
