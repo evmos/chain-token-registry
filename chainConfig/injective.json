@@ -12,7 +12,7 @@
     {
       "chainId": "injective-1",
       "chainName": "injective",
-      "identifier": "Injective",
+      "identifier": "injective",
       "clientId": "07-tendermint-19",
       "rest": [
         "https://lcd.injective.network",
