@@ -16,11 +16,13 @@
       "clientId": "07-tendermint-19",
       "rest": [
         "https://lcd.injective.network",
-        "https://injective-api.polkachu.com"
+        "https://injective-api.polkachu.com",
+        "https://injective-api.lavenderfive.com:443"
       ],
       "jrpc": [
         "https://tm.injective.network",
-        "https://injective-rpc.polkachu.com"
+        "https://injective-rpc.polkachu.com",
+        "https://injective-rpc.quickapi.com:443"
       ],
       "rpc": ["https://tm.injective.network"],
       "currencies": [
