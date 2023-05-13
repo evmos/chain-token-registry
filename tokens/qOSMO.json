@@ -1,0 +1,23 @@
+{
+  "coinDenom": "qOSMO",
+  "minCoinDenom": "uqosmo",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/6230C2923C20C318C1002CE04856118621FE2A220F99EBA0EC2066D5DDFF2152",
+  "description": "Quicksilver Liquid Staked OSMO",
+  "name": "Quicksilver Liquid Staked OSMO",
+  "tokenRepresentation": "qOSMO",
+  "channel": "channel-37",
+  "isEnabled": true,
+  "erc20Address": "0x616E00909730f7dE9Afd97Dc71981f6d28e2B0ca",
+  "ibc": {
+    "sourceDenom": "uqosmo",
+    "source": "Quicksilver"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "",
+  "category": "cosmos",
+  "coinSourcePrefix": "quick"
+}
