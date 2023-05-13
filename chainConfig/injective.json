@@ -11,7 +11,7 @@
   "configurations": [
     {
       "chainId": "injective-1",
-      "chainName": "injective",
+      "chainName": "Injective",
       "identifier": "injective",
       "clientId": "07-tendermint-19",
       "rest": [
