@@ -1,0 +1,23 @@
+{
+  "coinDenom": "QCK",
+  "minCoinDenom": "uqck",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/FCA18B0C0D1236E203D1AE09634A3F33E8AC31707CD59A74A437A903231C653C",
+  "description": "QCK - native token of Quicksilver",
+  "name": "Quicksilver",
+  "tokenRepresentation": "QCK",
+  "channel": "channel-37",
+  "isEnabled": true,
+  "erc20Address": "0xf55454383cEEFB1B5e889E59542352B1b928707d",
+  "ibc": {
+    "sourceDenom": "uqck",
+    "source": "Quicksilver"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "quicksilver",
+  "category": "cosmos",
+  "coinSourcePrefix": "quick"
+}
