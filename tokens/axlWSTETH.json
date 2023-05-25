@@ -8,7 +8,7 @@
   "cosmosDenom": "ibc/43BD3A576550CDCD183BC093AEB610B3C2057AD12BA3C27D67AE9F4BCA74F2C8",
   "description": "Lido staking derivative wstETH for staked ETH on Axelar",
   "name": "Lido staked ETH by Axelar",
-  "tokenRepresentation": "axlWSTETH",
+  "tokenRepresentation": "Lido",
   "channel": "channel-21",
   "isEnabled": true,
   "erc20Address": "0xA2A4B12EF81E7A26C5a1E0be9340b1972F85E44A",
