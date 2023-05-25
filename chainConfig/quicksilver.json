@@ -1,0 +1,49 @@
+{
+  "prefix": "quick",
+  "gasPriceStep": {
+		"low": "0.01",
+		"average": "0.025",
+		"high": "0.03"
+	},
+  "bip44": {
+    "coinType": "118"
+  },
+  "configurations": [
+    {
+      "chainId": "quicksilver-2",
+      "chainName": "quicksilver",
+      "identifier": "Quicksilver",
+      "rpc": [
+        "https://quicksilver-rpc.polkachu.com:443"
+      ],
+      "rest": [
+        "https://quicksilver-api.polkachu.com",
+        "https://quicksilver-api.lavenderfive.com",
+        "https://axelar-lcd.quickapi.com:443"
+      ],
+      "jrpc": [
+        "https://quicksilver-rpc.polkachu.com",
+        "https://quicksilver-rpc.lavenderfive.com",
+        "https://axelar-rpc.quickapi.com:443"
+      ],
+      "clientId": "07-tendermint-92",
+      "currencies": [
+        {
+          "coinDenom": "QCK",
+          "coinMinDenom": "uqck",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-7",
+        "sourceIBCDenomToEvmos": "ibc/73E97EB411B29C6F989C35D277D1A7FC65083572F102AC6BD101884EE9FB2C9F",
+        "destinationChannel": "channel-37",
+        "jsonRPC": [
+          "https://quicksilver-rpc.polkachu.com:443"
+        ]
+      },
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/quicksilver/txs"
+    }
+  ]
+}
