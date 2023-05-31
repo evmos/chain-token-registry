@@ -8,7 +8,7 @@
   "cosmosDenom": "ibc/26E6508A1757E12B15A087E951F5D35E73CF036F0D97BC809E1598D1DD870BED",
   "description": "Pepe on Axelar",
   "name": "Pepe by Axelar",
-  "tokenRepresentation": "axlPEPE",
+  "tokenRepresentation": "PEPE",
   "channel": "channel-21",
   "isEnabled": true,
   "erc20Address": "0xc76A204AEA61a68a3B1f97B8E70286CD42B020D2",
