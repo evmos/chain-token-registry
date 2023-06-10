@@ -8,7 +8,7 @@
   "cosmosDenom": "ibc/6A3538834873D16F00D0268B295A8D6FD9B005952787AA14726D0013A51042AC",
   "description": "Rocket Pool staking derivative rETH for staked ETH on Axelar",
   "name": "Rocket Pool staked ETH by Axelar",
-  "tokenRepresentation": "axlRETH",
+  "tokenRepresentation": "Rocket Pool",
   "channel": "channel-21",
   "isEnabled": true,
   "erc20Address": "0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E",
