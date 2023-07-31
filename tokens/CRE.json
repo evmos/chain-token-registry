@@ -11,7 +11,7 @@
   "tokenRepresentation": "CRE",
   "channel": "channel-11",
   "isEnabled": true,
-  "erc20Address": "",
+  "erc20Address": "0x628A41754edfAFB491FEe6a1F397590B9013E01B",
   "ibc": {
     "sourceDenom": "ucre",
     "source": "crescent"
