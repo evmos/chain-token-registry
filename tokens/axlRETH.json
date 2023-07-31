@@ -1,0 +1,29 @@
+{
+  "coinDenom": "axlRETH",
+  "minCoinDenom": "reth-wei",
+  "imgSrc": "https://assets.coingecko.com/coins/images/20764/large/reth.png",
+  "pngSrc": "https://assets.coingecko.com/coins/images/20764/large/reth.png",
+  "type": "IBC",
+  "exponent": "18",
+  "cosmosDenom": "ibc/6A3538834873D16F00D0268B295A8D6FD9B005952787AA14726D0013A51042AC",
+  "description": "Rocket Pool staking derivative rETH for staked ETH on Axelar",
+  "name": "Rocket Pool staked ETH by Axelar",
+  "tokenRepresentation": "Rocket Pool",
+  "channel": "channel-21",
+  "isEnabled": true,
+  "erc20Address": "0xE60CE2dfa6D4Ad37Ade1dcB7aC4D6C3A093b3A7E",
+  "ibc": {
+    "sourceDenom": "axlreth",
+    "source": "Axelar"
+  },
+  "hideFromTestnet": true,
+  "handledByExternalUI": [
+    {
+      "url": "https://satellite.money/",
+      "handlingAction": "Deposit and Withdraw"
+    }
+  ],
+  "coingeckoId": "rocket-pool-eth",
+  "category": "ethereum",
+  "coinSourcePrefix": "axelar"
+}

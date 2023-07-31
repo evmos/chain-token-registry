@@ -1,0 +1,45 @@
+{
+  "prefix": "inj",
+  "gasPriceStep": {
+		"low": "100000000000",
+		"average": "200000000000",
+		"high": "30000000000000"
+	},
+  "bip44": {
+    "coinType": "60"
+  },
+  "configurations": [
+    {
+      "chainId": "injective-1",
+      "chainName": "Injective",
+      "identifier": "injective",
+      "clientId": "07-tendermint-19",
+      "rest": [
+        "https://lcd.injective.network",
+        "https://injective-api.polkachu.com",
+        "https://injective-api.lavenderfive.com:443"
+      ],
+      "jrpc": [
+        "https://tm.injective.network",
+        "https://injective-rpc.polkachu.com",
+        "https://injective-rpc.quickapi.com:443"
+      ],
+      "rpc": ["https://tm.injective.network"],
+      "currencies": [
+        {
+          "coinDenom": "INJ",
+          "coinMinimalDenom": "inj",
+          "coinDecimals": "18"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-83",
+        "sourceIBCDenomToEvmos": "ibc/16618B7F7AC551F48C057A13F4CA5503693FBFF507719A85BC6876B8BD75F821",
+        "destinationChannel": "channel-10",
+        "jsonRPC": ["https://tm.injective.network"]
+      },
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/injective/txs"
+    }
+  ]
+}

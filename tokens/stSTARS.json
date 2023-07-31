@@ -1,0 +1,23 @@
+{
+  "coinDenom": "stSTARS",
+  "minCoinDenom": "stustars",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/1464C6BD4C7ADB0A15BE85F48EE1E04A5371F4727F609FBAB788CF5137FDAAB7",
+  "description": "Staking derivative by Stride",
+  "name": "Stride Staked Stars",
+  "tokenRepresentation": "STARS",
+  "channel": "channel-25",
+  "isEnabled": true,
+  "erc20Address": "0xc7e56EEc629D3728fE41baCa2f6BFc502096f94E",
+  "ibc": {
+    "sourceDenom": "stustars",
+    "source": "Stride"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "stride-staked-stars",
+  "category": "cosmos",
+  "coinSourcePrefix": "stride"
+}

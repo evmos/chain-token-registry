@@ -1,0 +1,23 @@
+{
+  "coinDenom": "stJUNO",
+  "minCoinDenom": "stujuno",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/D9C9DFD2B4021D16B01AC16ECD5A7933383C38F8331160583E0A5F34B30E1BA9",
+  "description": "Staking derivative by Stride",
+  "name": "Stride Staked Juno",
+  "tokenRepresentation": "JUNO",
+  "channel": "channel-25",
+  "isEnabled": true,
+  "erc20Address": "0xc71aAf8e486e3F33841BB56Ca3FD2aC3fa8D29a8",
+  "ibc": {
+    "sourceDenom": "stujuno",
+    "source": "Stride"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "stride-staked-juno",
+  "category": "cosmos",
+  "coinSourcePrefix": "stride"
+}
