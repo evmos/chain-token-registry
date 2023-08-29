@@ -1,0 +1,23 @@
+{
+  "coinDenom": "NEOK",
+  "minCoinDenom": "neok",
+  "imgSrc": "",
+  "pngSrc": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/evmos/asset/neok.png",
+  "type": "IBC",
+  "exponent": "18",
+  "cosmosDenom": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+  "description": "NEOKingdom DAO",
+  "name": "NEOKingdom DAO",
+  "tokenRepresentation": "NEOK",
+  "channel": "",
+  "isEnabled": true,
+  "erc20Address": "0x655ecB57432CC1370f65e5dc2309588b71b473A9",
+  "ibc": {
+    "sourceDenom": "neok",
+    "source": "Evmos"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "",
+  "category": "cosmos",
+  "coinSourcePrefix": "evmos"
+}
