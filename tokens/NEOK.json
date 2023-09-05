@@ -19,5 +19,5 @@
   "hideFromTestnet": false,
   "coingeckoId": "",
   "category": "cosmos",
-  "coinSourcePrefix": "neok"
+  "coinSourcePrefix": "evmos"
 }
