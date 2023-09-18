@@ -28,7 +28,7 @@
       "currencies": [
         {
           "coinDenom": "INJ",
-          "coinMinimalDenom": "inj",
+          "coinMinDenom": "inj",
           "coinDecimals": "18"
         }
       ],
