@@ -1,0 +1,23 @@
+{
+    "coinDenom": "USDT",
+    "minCoinDenom": "erc20/tether/usdt",
+    "imgSrc": "https://assets.coingecko.com/coins/images/325/small/Tether.png",
+    "pngSrc": "https://assets.coingecko.com/coins/images/325/small/Tether.png",
+    "type": "IBC",
+    "exponent": "6",
+    "cosmosDenom": "ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5",
+    "description": "Native USDT issued on Kava",
+    "name": "USDT on Kava",
+    "tokenRepresentation": "USDT",
+    "channel": "channel-83",
+    "isEnabled": true,
+    "erc20Address": "0xB8f812B5943ab3BF941D5D4F1de90A4b326c5d8f",
+    "ibc": {
+      "sourceDenom": "erc20/tether/usdt",
+      "source": "Kava"
+    },
+    "hideFromTestnet": false,
+    "coingeckoId": "tether",
+    "category": "stablecoin",
+    "coinSourcePrefix": "kava"
+  }
