@@ -11,7 +11,7 @@
     "configurations": [
       {
         "chainId": "kava_2222-10",
-        "chainName": "kava",
+        "chainName": "Kava",
         "identifier": "Kava",
         "clientId": "07-tendermint-113",
         "rest": [

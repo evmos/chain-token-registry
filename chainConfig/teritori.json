@@ -11,7 +11,7 @@
     "configurations": [
         {
             "chainId": "teritori-1",
-            "chainName": "teritori",
+            "chainName": "Teritori",
             "identifier": "Teritori",
             "clientId": "07-tendermint-89",
             "rest": [
