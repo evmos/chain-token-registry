@@ -11,7 +11,7 @@
     "configurations": [
       {
         "chainId": "crescent-1",
-        "chainName": "Crescent NetWork",
+        "chainName": "Crescent Network",
         "identifier": "Crescent",
         "clientId": "07-tendermint-38",
         "rest": [

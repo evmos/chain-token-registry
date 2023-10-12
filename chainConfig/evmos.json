@@ -39,12 +39,10 @@
         "https://rpc.evmos.bh.rocks"
       ],
       "web3": [
-        "https://jsonrpc-rpcaas-evmos-mainnet.ubiquity.blockdaemon.tech",
-        "https://eth.bd.evmos.org:8545",
         "https://jsonrpc-evmos-ia.cosmosia.notional.ventures",
-        "https://evmos-json-rpc.stakely.io",
-        "https://jsonrpc.evmos.nodestake.top",
-        "https://json-rpc.evmos.bh.rocks"
+        "https://evmos-mainnet.public.blastapi.io",
+        "https://evmos-evm.publicnode.com",
+        "https://evmos.lava.build"
       ],
       "rpc": ["https://grpc.bd.evmos.org:9090"],
       "currencies": [
