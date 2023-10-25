@@ -21,9 +21,8 @@
       "clientId": "",
       "rest": [
         "https://rest.bd.evmos.org:1317",
+        "https://rest.evmos.lava.build",
         "https://api-evmos-ia.cosmosia.notional.ventures",
-        "https://api.evmos.interbloc.org",
-        "https://lcd.evmos.bh.rocks",
         "https://lcd.evmos.disperze.network",
         "https://evmos-rest.publicnode.com"
       ],
