@@ -69,7 +69,7 @@
         }
       ],
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/evmos/txs"
+      "explorerTxUrl": "https://escan.live/tx"
     }
   ]
 }
