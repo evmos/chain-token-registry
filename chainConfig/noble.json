@@ -1,0 +1,49 @@
+{
+    "prefix": "noble",
+    "gasPriceStep": {
+      "low": "0.01",
+      "average": "0.025",
+      "high": "0.03"
+    },
+    "bip44": {
+      "coinType": "118"
+    },
+    "configurations": [
+      {
+        "chainId": "noble-1",
+        "chainName": "noble",
+        "identifier": "noble",
+        "rpc": [
+          "https://noble-rpc.polkachu.com:443"
+        ],
+        "rest": [
+          "https://noble-api.polkachu.com",
+          "https://api.mainnet.noble.strange.love",
+          "https://api.mainnet.noble.strange.love"
+        ],
+        "jrpc": [
+          "https://noble-rpc.polkachu.com",
+          "https://rpc.mainnet.noble.strange.love",
+          "https://rpc.mainnet.noble.strange.love"
+        ],
+        "clientId": "07-tendermint-106",
+        "currencies": [
+          {
+            "coinDenom": "USDC",
+            "coinMinDenom": "uusdc",
+            "coinDecimals": "6"
+          }
+        ],
+        "source": {
+          "sourceChannel": "channel-7",
+          "sourceIBCDenomToEvmos": "ibc/73E97EB411B29C6F989C35D277D1A7FC65083572F102AC6BD101884EE9FB2C9F",
+          "destinationChannel": "channel-64",
+          "jsonRPC": [
+            "https://noble-rpc.polkachu.com:443"
+          ]
+        },
+        "configurationType": "mainnet",
+        "explorerTxUrl": "https://www.mintscan.io/noble/txs"
+      }
+    ]
+  }
