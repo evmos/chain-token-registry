@@ -1,0 +1,23 @@
+{
+  "coinDenom": "USDC",
+  "minCoinDenom": "uusdc",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/35357FE55D81D88054E135529BB2AEB1BB20D207292775A19BD82D83F27BE9B4",
+  "description": "USD Coin",
+  "name": "USD Coin",
+  "tokenRepresentation": "USDC",
+  "channel": "channel-64",
+  "isEnabled": true,
+  "erc20Address": "0xf1faE9eC886C5F6E4ea13dA2456087Bd72F02cD1",
+  "ibc": {
+    "sourceDenom": "uusdc",
+    "source": "noble"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "usd-coin",
+  "category": "cosmos",
+  "coinSourcePrefix": "noble"
+}
