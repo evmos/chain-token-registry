@@ -7,7 +7,7 @@
   "exponent": "6",
   "cosmosDenom": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
   "description": "USD Coin via Gravity Bridge",
-  "name": "USD Coin",
+  "name": "USD Coin - Gravity",
   "tokenRepresentation": "USDC",
   "channel": "channel-8",
   "isEnabled": true,
