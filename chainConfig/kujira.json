@@ -62,7 +62,7 @@
         ]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/kujira/txs"
+      "explorerTxUrl": "https://finder.kujira.network/kaiyo-1/tx"
     }
   ]
 }
