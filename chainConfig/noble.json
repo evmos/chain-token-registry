@@ -11,7 +11,7 @@
     "configurations": [
       {
         "chainId": "noble-1",
-        "chainName": "noble",
+        "chainName": "Noble",
         "identifier": "noble",
         "rpc": [
           "https://noble-rpc.polkachu.com:443"
