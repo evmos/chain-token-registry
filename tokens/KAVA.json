@@ -1,0 +1,23 @@
+{
+  "coinDenom": "KAVA",
+  "minCoinDenom": "ukava",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/A724CE2BEAEBE04851510EEA6DC436ED3A824D1681AF14E7A706C66E9F39D741",
+  "description": "The native token of Kava",
+  "name": "Kava",
+  "tokenRepresentation": "KAVA",
+  "channel": "channel-83",
+  "isEnabled": true,
+  "erc20Address": "0x6196AEe47D983E9b20610A3e816935bFfA8d17D1",
+  "ibc": {
+    "sourceDenom": "ukava",
+    "source": "Kava"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "kava",
+  "category": "cosmos",
+  "coinSourcePrefix": "kava"
+}
