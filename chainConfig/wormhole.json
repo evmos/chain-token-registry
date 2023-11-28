@@ -1,0 +1,45 @@
+{
+  "prefix": "wormhole",
+  "gasPriceStep": {
+    "low": "0",
+    "average": "0",
+    "high": "0"
+  },
+  "bip44": {
+    "coinType": "118"
+  },
+  "configurations": [
+    {
+      "chainId": "wormchain",
+      "chainName": "Wormhole Gateway",
+      "identifier": "wormhole",
+      "rpc": [
+        "https://wormchain-rpc.quickapi.com:443"
+      ],
+      "rest": [
+        "https://wormchain-lcd.quickapi.com"
+      ],
+      "jrpc": [
+        "https://wormchain-rpc.quickapi.com",
+        "https://wormchain.jumpisolated.com"
+      ],
+      "clientId": "07-tendermint-119",
+      "currencies": [
+        {
+          "coinDenom": "WORM",
+          "coinMinDenom": "uworm",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-94",
+        "destinationChannel": "channel-5",
+        "jsonRPC": [
+          "https://wormchain-rpc.quickapi.com:443"
+        ]
+      },
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://bigdipper.live/wormhole/transactions"
+    }
+  ]
+}
