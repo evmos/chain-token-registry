@@ -33,6 +33,7 @@
       ],
       "source": {
         "sourceChannel": "channel-94",
+        "sourceIBCDenomToEvmos": "",
         "destinationChannel": "channel-5",
         "jsonRPC": [
           "https://wormchain-rpc.quickapi.com:443"
