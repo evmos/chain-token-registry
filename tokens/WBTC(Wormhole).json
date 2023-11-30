@@ -1,0 +1,29 @@
+{
+  "coinDenom": "WBTC",
+  "minCoinDenom": "nwbtc",
+  "imgSrc": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
+  "pngSrc": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
+  "type": "IBC",
+  "exponent": "8",
+  "cosmosDenom": "ibc/46C5DA1CB61C5BAA8730ABA467ADD58DE0333B075CACE28BC87E64AE8C9CA051",
+  "description": "Wormhole Bitcoin",
+  "name": "Wormhole Bitcoin",
+  "tokenRepresentation": "WBTC",
+  "channel": "channel-94",
+  "isEnabled": true,
+  "erc20Address": "0xC732284e5deDb565ba403216d718a485038E55A6",
+  "ibc": {
+    "sourceDenom": "wbtc",
+    "source": "Wormhole"
+  },
+  "hideFromTestnet": false,
+  "handledByExternalUI": [
+    {
+      "url": "https://portalbridge.com/cosmos/",
+      "handlingAction": "Deposit and Withdraw"
+    }
+  ],
+  "coingeckoId": "wrapped-bitcoin",
+  "category": "ethereum",
+  "coinSourcePrefix": "wormhole"
+}

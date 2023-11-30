@@ -1,0 +1,29 @@
+{
+  "coinDenom": "SOL",
+  "minCoinDenom": "nsol",
+  "imgSrc": "https://assets.coingecko.com/coins/images/4128/large/solana.png",
+  "pngSrc": "https://assets.coingecko.com/coins/images/4128/large/solana.png",
+  "type": "IBC",
+  "exponent": "8",
+  "cosmosDenom": "ibc/4443218F584A7AB2DFBCF93872D6E5B6967A11C53515DDF45A2CF387C54BD73A",
+  "description": "Wormhole SOL token from Solana",
+  "name": "Wormhole SOL token from Solana",
+  "tokenRepresentation": "SOL",
+  "channel": "channel-94",
+  "isEnabled": true,
+  "erc20Address": "0xF7510813E6C3CBe137f60F7F236eC5b19BBf2362",
+  "ibc": {
+    "sourceDenom": "sol",
+    "source": "Wormhole"
+  },
+  "hideFromTestnet": false,
+  "handledByExternalUI": [
+    {
+      "url": "https://portalbridge.com/cosmos/",
+      "handlingAction": "Deposit and Withdraw"
+    }
+  ],
+  "coingeckoId": "solana",
+  "category": "solana",
+  "coinSourcePrefix": "wormhole"
+}

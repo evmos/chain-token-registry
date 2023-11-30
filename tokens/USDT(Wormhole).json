@@ -1,0 +1,29 @@
+{
+  "coinDenom": "USDT",
+  "minCoinDenom": "uusdt",
+  "imgSrc": "https://assets.coingecko.com/coins/images/17385/large/Tether_new.png",
+  "pngSrc": "https://assets.coingecko.com/coins/images/17385/large/Tether_new.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/C9072A294F5649D64E87A6998DD750576881E454CACCDAF7376EFC0FA243808D",
+  "description": "Wormhole USDT on Ethereum",
+  "name": "Wormhole USDT on Ethereum",
+  "tokenRepresentation": "USDT",
+  "channel": "channel-94",
+  "isEnabled": true,
+  "erc20Address": "0xa9582420B222C85Ee5b6e766415EEa5673283A03",
+  "ibc": {
+    "sourceDenom": "usdt",
+    "source": "Wormhole"
+  },
+  "hideFromTestnet": false,
+  "handledByExternalUI": [
+    {
+      "url": "https://portalbridge.com/cosmos/",
+      "handlingAction": "Deposit and Withdraw"
+    }
+  ],
+  "coingeckoId": "tether",
+  "category": "ethereum",
+  "coinSourcePrefix": "wormhole"
+}

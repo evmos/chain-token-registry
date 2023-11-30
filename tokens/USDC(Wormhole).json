@@ -1,0 +1,29 @@
+{
+  "coinDenom": "USDC",
+  "minCoinDenom": "uusdc",
+  "imgSrc": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+  "pngSrc": "https://assets.coingecko.com/coins/images/6319/large/usdc.png",
+  "type": "IBC",
+  "exponent": "6",
+  "cosmosDenom": "ibc/0C19171CDC59451F91D2749CDEA63355532DCD5D8904CCBAC4953290E16AB8FD",
+  "description": "Wormhole USDC on Ethereum",
+  "name": "Wormhole USDC on Ethereum",
+  "tokenRepresentation": "USDC",
+  "channel": "channel-94",
+  "isEnabled": true,
+  "erc20Address": "0xC4CcDf91b810a61cCB48b35ccCc066C63bf94B4F",
+  "ibc": {
+    "sourceDenom": "usdc",
+    "source": "Wormhole"
+  },
+  "hideFromTestnet": false,
+  "handledByExternalUI": [
+    {
+      "url": "https://portalbridge.com/cosmos/",
+      "handlingAction": "Deposit and Withdraw"
+    }
+  ],
+  "coingeckoId": "usdc",
+  "category": "ethereum",
+  "coinSourcePrefix": "wormhole"
+}
