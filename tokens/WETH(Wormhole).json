@@ -1,0 +1,29 @@
+{
+  "coinDenom": "WETH",
+  "minCoinDenom": "nweth",
+  "imgSrc": "https://assets.coingecko.com/coins/images/32882/large/WETH_%281%29.png",
+  "pngSrc": "https://assets.coingecko.com/coins/images/32882/large/WETH_%281%29.png",
+  "type": "IBC",
+  "exponent": "8",
+  "cosmosDenom": "ibc/4442A8E0D487A49E76EA6606F5DADCF8D0DBDD8499112340C964970DB745EDA2",
+  "description": "Wrapped Ether (Wormhole)",
+  "name": "Wormhole ETH",
+  "tokenRepresentation": "WETH",
+  "channel": "channel-94",
+  "isEnabled": true,
+  "erc20Address": "0x4D036A97e9ad9e805f0E7B163Ea681B3dE83B7BF",
+  "ibc": {
+    "sourceDenom": "weth",
+    "source": "Wormhole"
+  },
+  "hideFromTestnet": false,
+  "handledByExternalUI": [
+    {
+      "url": "https://portalbridge.com/cosmos/",
+      "handlingAction": "Deposit and Withdraw"
+    }
+  ],
+  "coingeckoId": "weth",
+  "category": "ethereum",
+  "coinSourcePrefix": "wormhole"
+}
