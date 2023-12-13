@@ -20,8 +20,6 @@
       "identifier": "Evmos",
       "clientId": "",
       "rest": [
-        "https://rest.bd.evmos.org:1317",
-        "https://rest.evmos.lava.build",
         "https://api-evmos-ia.cosmosia.notional.ventures",
         "https://lcd.evmos.disperze.network",
         "https://evmos-rest.publicnode.com"
