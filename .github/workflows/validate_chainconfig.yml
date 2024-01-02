@@ -15,4 +15,4 @@ jobs:
         run: npm install -g ajv-cli
 
       - name: Validate Chain Config schema
-        run: ./validate-chain-config.sh
+        run: ./validate-chainconfig.sh
