@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "wormETH",
   "minCoinDenom": "nweth",
-  "imgSrc": "https://assets.coingecko.com/coins/images/32882/large/WETH_%281%29.png",
   "pngSrc": "https://assets.coingecko.com/coins/images/32882/large/WETH_%281%29.png",
   "type": "IBC",
   "exponent": "8",

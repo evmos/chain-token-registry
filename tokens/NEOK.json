@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "NEOK",
   "minCoinDenom": "neok",
-  "imgSrc": "",
   "pngSrc": "https://raw.githubusercontent.com/cosmostation/chainlist/main/chain/evmos/asset/neok.png",
   "type": "IBC",
   "exponent": "18",

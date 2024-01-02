@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "gUSDC",
   "minCoinDenom": "uusdc",
-  "imgSrc": "",
   "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdc.png",
   "type": "ERC-20",
   "exponent": "6",

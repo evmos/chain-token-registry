@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "axlRETH",
   "minCoinDenom": "reth-wei",
-  "imgSrc": "https://assets.coingecko.com/coins/images/20764/large/reth.png",
   "pngSrc": "https://assets.coingecko.com/coins/images/20764/large/reth.png",
   "type": "IBC",
   "exponent": "18",

@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "wormUSDT",
   "minCoinDenom": "uusdt",
-  "imgSrc": "https://assets.coingecko.com/coins/images/17385/large/Tether_new.png",
   "pngSrc": "https://assets.coingecko.com/coins/images/17385/large/Tether_new.png",
   "type": "IBC",
   "exponent": "6",

@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "gUSDT",
   "minCoinDenom": "uusdt",
-  "imgSrc": "",
   "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdt.png",
   "type": "ERC-20",
   "exponent": "6",
