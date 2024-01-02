@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "kavaUSDT",
   "minCoinDenom": "erc20/tether/usdt",
   "imgSrc": "https://assets.coingecko.com/coins/images/325/small/Tether.png",

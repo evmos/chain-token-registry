@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.chain.json",
   "prefix": "wormhole",
   "gasPriceStep": {
     "low": "0",
@@ -13,14 +14,14 @@
       "chainId": "wormchain",
       "chainName": "Wormhole Gateway",
       "identifier": "wormhole",
-      "rpc": [
-        "https://wormchain-rpc.quickapi.com:443"
-      ],
+      "rpc": ["https://wormchain-rpc.quickapi.com:443"],
       "rest": [
-        "https://wormchain-lcd.quickapi.com"
+        "https://wormchain-lcd.quickapi.com",
+        "https://tncnt-eu-wormchain-main-01.rpc.p2p.world/lcd"
       ],
       "jrpc": [
         "https://wormchain-rpc.quickapi.com",
+        "https://tncnt-eu-wormchain-main-01.rpc.p2p.world",
         "https://wormchain.jumpisolated.com"
       ],
       "clientId": "07-tendermint-119",
@@ -35,9 +36,7 @@
         "sourceChannel": "channel-94",
         "sourceIBCDenomToEvmos": " ",
         "destinationChannel": "channel-5",
-        "jsonRPC": [
-          "https://wormchain-rpc.quickapi.com:443"
-        ]
+        "jsonRPC": ["https://wormchain-rpc.quickapi.com:443"]
       },
       "configurationType": "mainnet",
       "explorerTxUrl": "https://bigdipper.live/wormhole/transactions"

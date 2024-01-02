@@ -82,7 +82,15 @@
       "type": "string",
       "description": "Select a parental category of this asset. If a category does not exist, please feel free to create a PR to update the schema. For example, all wrapped token are part of the parent category, gWBTC is 'bitcoin'.",
       "default": "none",
-      "enum": ["bitcoin", "ethereum", "stablecoin", "cosmos", "polygon", "none"]
+      "enum": [
+        "bitcoin",
+        "ethereum",
+        "stablecoin",
+        "cosmos",
+        "polygon",
+        "none",
+        "solana"
+      ]
     },
     "coinSourcePrefix": {
       "type": "string",

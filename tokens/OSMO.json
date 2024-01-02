@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "OSMO",
   "minCoinDenom": "uosmo",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",

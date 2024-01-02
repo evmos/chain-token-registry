@@ -1,10 +1,11 @@
 {
+  "$schema": "../schema.chain.json",
   "prefix": "quick",
   "gasPriceStep": {
-		"low": "0.01",
-		"average": "0.025",
-		"high": "0.03"
-	},
+    "low": "0.01",
+    "average": "0.025",
+    "high": "0.03"
+  },
   "bip44": {
     "coinType": "118"
   },
@@ -13,9 +14,7 @@
       "chainId": "quicksilver-2",
       "chainName": "Quicksilver",
       "identifier": "Quicksilver",
-      "rpc": [
-        "https://quicksilver-rpc.polkachu.com:443"
-      ],
+      "rpc": ["https://quicksilver-rpc.polkachu.com:443"],
       "rest": [
         "https://quicksilver-api.polkachu.com",
         "https://quicksilver-api.lavenderfive.com",
@@ -38,9 +37,7 @@
         "sourceChannel": "channel-7",
         "sourceIBCDenomToEvmos": "ibc/73E97EB411B29C6F989C35D277D1A7FC65083572F102AC6BD101884EE9FB2C9F",
         "destinationChannel": "channel-37",
-        "jsonRPC": [
-          "https://quicksilver-rpc.polkachu.com:443"
-        ]
+        "jsonRPC": ["https://quicksilver-rpc.polkachu.com:443"]
       },
       "configurationType": "mainnet",
       "explorerTxUrl": "https://www.mintscan.io/quicksilver/txs"

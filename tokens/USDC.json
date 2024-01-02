@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "USDC",
   "minCoinDenom": "uusdc",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",

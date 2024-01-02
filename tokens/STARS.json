@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "STARS",
   "minCoinDenom": "ustars",
   "imgSrc": "",

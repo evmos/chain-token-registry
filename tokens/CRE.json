@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "CRE",
   "minCoinDenom": "ucre",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.svg",

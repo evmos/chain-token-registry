@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "TORI",
   "minCoinDenom": "utori",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/tori.svg",

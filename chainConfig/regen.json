@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.chain.json",
   "prefix": "regen",
   "gasPriceStep": {
     "low": "0.005",
@@ -27,9 +28,7 @@
         "http://rpc.regen.forbole.com:80",
         "https://rpc-regen-ia.cosmosia.notional.ventures"
       ],
-      "rpc": [
-        "https://rpc-regen.ecostake.com"
-      ],
+      "rpc": ["https://rpc-regen.ecostake.com"],
       "currencies": [
         {
           "coinDenom": "REGEN",
@@ -41,9 +40,7 @@
         "sourceChannel": "channel-44",
         "sourceIBCDenomToEvmos": "ibc/3F0E005C3822C1BBA60E7CC368630441B1F5055FBD58A004F729A98FE1AA17B0",
         "destinationChannel": "channel-20",
-        "jsonRPC": [
-          "https://rpc-regen.ecostake.com"
-        ]
+        "jsonRPC": ["https://rpc-regen.ecostake.com"]
       },
       "configurationType": "mainnet",
       "explorerTxUrl": "https://www.mintscan.io/regen/txs"

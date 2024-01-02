@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "gUSDT",
   "minCoinDenom": "uusdt",
   "imgSrc": "",

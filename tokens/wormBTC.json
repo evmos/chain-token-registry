@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "wormBTC",
   "minCoinDenom": "nwbtc",
   "imgSrc": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",

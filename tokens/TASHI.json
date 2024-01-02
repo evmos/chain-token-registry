@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "TASHI",
   "minCoinDenom": "tashi",
   "imgSrc": "https://app.tashi.finance/svgs/tashi-icon.svg",

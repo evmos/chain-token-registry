@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "axlPEPE",
   "minCoinDenom": "pepe-wei",
   "imgSrc": "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg",

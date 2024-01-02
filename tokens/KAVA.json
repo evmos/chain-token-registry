@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "KAVA",
   "minCoinDenom": "ukava",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg",
