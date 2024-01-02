@@ -1,5 +1,5 @@
 {
-  "coinDenom": "USDC.grv",
+  "coinDenom": "gUSDC",
   "minCoinDenom": "uusdc",
   "imgSrc": "",
   "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdc.png",
