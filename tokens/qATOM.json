@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "qATOM",
   "minCoinDenom": "uqatom",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/28F9F0420534AE42F7D220B04518A3A45A7F40A0855A1C353CB4BB7223A70F5A",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "",
   "category": "cosmos",
-  "coinSourcePrefix": "quick"
+  "coinSourcePrefix": "quick",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/qATOM.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/qATOM.svg"
+  }
 }

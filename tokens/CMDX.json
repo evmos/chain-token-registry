@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "CMDX",
   "minCoinDenom": "ucmdx",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/61DF64ADF65230540C14C63D64897BE08A3DC9A516A91425913F01240E2F432F",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "comdex",
   "category": "cosmos",
-  "coinSourcePrefix": "comdex"
+  "coinSourcePrefix": "comdex",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/CMDX.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/CMDX.svg"
+  }
 }

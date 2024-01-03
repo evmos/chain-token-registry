@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "ATOM",
   "minCoinDenom": "uatom",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "cosmos",
   "category": "cosmos",
-  "coinSourcePrefix": "cosmos"
+  "coinSourcePrefix": "cosmos",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/ATOM.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/ATOM.svg"
+  }
 }

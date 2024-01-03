@@ -12,15 +12,21 @@
       "type": "string",
       "description": "Minimal coin denom, i.e. satoshi for Bitcoin"
     },
-    "imgSrc": {
-      "type": "string",
-      "description": "Link must be SVG link only. If this image is coming from Github, make sure it has a pattern of 'https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain}/images/${coin}.svg' and the link directly opens the image only and not the site of Github with the image.",
-      "pattern": "^https:\\/\\/.+\\.svg$"
-    },
-    "pngSrc": {
-      "type": "string",
-      "description": "Link must be png source. If this image is coming from Github, make sure it has a pattern of 'https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain}/images/${coin}.png' and the link directly opens the image only and not the site of Github with the image.",
-      "pattern": "^https:\\/\\/.+\\.png$"
+    "img": {
+      "type": "object",
+      "required": ["png"],
+      "properties": {
+        "png": {
+          "type": "string",
+          "description": "Link must be png source. If this image is coming from Github, make sure it has a pattern of 'https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain}/images/${coin}.png' and the link directly opens the image only and not the site of Github with the image.",
+          "pattern": "^https://raw\\.githubusercontent\\.com/evmos/chain-token-registry/main/assets/tokens/.+\\.png$"
+        },
+        "svg": {
+          "type": "string",
+          "description": "Link must be SVG link only. If this image is coming from Github, make sure it has a pattern of 'https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain}/images/${coin}.svg' and the link directly opens the image only and not the site of Github with the image.",
+          "pattern": "^https://raw\\.githubusercontent\\.com/evmos/chain-token-registry/main/assets/tokens/.+\\.svg$"
+        }
+      }
     },
     "type": {
       "type": "string",
@@ -126,7 +132,6 @@
   "required": [
     "coinDenom",
     "minCoinDenom",
-    "pngSrc",
     "type",
     "exponent",
     "cosmosDenom",

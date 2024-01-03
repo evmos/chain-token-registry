@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "AXL",
   "minCoinDenom": "uaxl",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/473351B37CC9D7BA7B247800EF04D255E442C4C9C93976E3631B190A8F3C5570",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "axelar",
   "category": "cosmos",
-  "coinSourcePrefix": "axelar"
+  "coinSourcePrefix": "axelar",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/AXL.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/AXL.svg"
+  }
 }

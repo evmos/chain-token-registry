@@ -69,7 +69,8 @@
           "rpc",
           "currencies",
           "source",
-          "configurationType"
+          "configurationType",
+          "img"
         ],
         "properties": {
           "chainId": {
@@ -79,6 +80,22 @@
           "identifier": {
             "type": "string",
             "description": "Global identifier to be used by both client and backend as default reference for the chain"
+          },
+          "img": {
+            "type": "object",
+            "required": ["png"],
+            "properties": {
+              "png": {
+                "type": "string",
+                "description": "Link to the chain logo",
+                "pattern": "^https://raw\\.githubusercontent\\.com/evmos/chain-token-registry/main/assets/chainConfig/.+\\.png$"
+              },
+              "svg": {
+                "type": "string",
+                "description": "Link to the chain logo",
+                "pattern": "^https://raw\\.githubusercontent\\.com/evmos/chain-token-registry/main/assets/chainConfig/.+\\.svg$"
+              }
+            }
           },
           "chainName": {
             "type": "string",
@@ -186,6 +203,10 @@
                 }
               }
             }
+          },
+          "cosmosRegistryUrl": {
+            "type": "string",
+            "description": "Link to the Cosmos Registry"
           },
           "configurationType": {
             "type": "string",

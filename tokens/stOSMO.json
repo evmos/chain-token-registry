@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "stOSMO",
   "minCoinDenom": "stuosmo",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/C9364B2C453F0428D04FD40B6CF486BA138FA462FE43A116268A7B695AFCFE7F",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "stride-staked-osmo",
   "category": "cosmos",
-  "coinSourcePrefix": "stride"
+  "coinSourcePrefix": "stride",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/stOSMO.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/stOSMO.svg"
+  }
 }

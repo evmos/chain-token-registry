@@ -13,7 +13,7 @@
     {
       "chainId": "osmosis-1",
       "chainName": "Osmosis",
-      "identifier": "Osmosis",
+      "identifier": "osmosis",
       "clientId": "07-tendermint-0",
       "rest": [
         "https://osmosis-lcd.quickapi.com:443",
@@ -50,7 +50,11 @@
         "jsonRPC": ["https://rpc-osmosis.blockapsis.com/"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/osmosis/txs"
+      "explorerTxUrl": "https://www.mintscan.io/osmosis/txs",
+      "img": {
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/osmosis.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/chain.json"
     }
   ]
 }

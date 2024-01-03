@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "stSTARS",
   "minCoinDenom": "stustars",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/1464C6BD4C7ADB0A15BE85F48EE1E04A5371F4727F609FBAB788CF5137FDAAB7",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "stride-staked-stars",
   "category": "cosmos",
-  "coinSourcePrefix": "stride"
+  "coinSourcePrefix": "stride",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/stSTARS.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/stSTARS.svg"
+  }
 }

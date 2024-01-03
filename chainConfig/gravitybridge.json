@@ -13,7 +13,7 @@
     {
       "chainId": "gravity-bridge-3",
       "chainName": "Gravity Bridge",
-      "identifier": "Gravity",
+      "identifier": "gravitybridge",
       "clientId": "07-tendermint-3",
       "rest": [
         "https://gravitychain.io:1317",
@@ -44,7 +44,12 @@
         "jsonRPC": ["https://gravitychain.io:26657/"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/gravity-bridge/txs"
+      "explorerTxUrl": "https://www.mintscan.io/gravity-bridge/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/gravitybridge.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/gravitybridge.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/chain.json"
     }
   ]
 }

@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "OSMO",
   "minCoinDenom": "uosmo",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "osmosis",
   "category": "cosmos",
-  "coinSourcePrefix": "osmo"
+  "coinSourcePrefix": "osmo",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/OSMO.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/OSMO.svg"
+  }
 }

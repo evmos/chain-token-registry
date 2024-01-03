@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "axlWSTETH",
   "minCoinDenom": "wsteth-wei",
-  "pngSrc": "https://assets.coingecko.com/coins/images/18834/large/wstETH.png",
   "type": "IBC",
   "exponent": "18",
   "cosmosDenom": "ibc/43BD3A576550CDCD183BC093AEB610B3C2057AD12BA3C27D67AE9F4BCA74F2C8",
@@ -25,5 +24,8 @@
   ],
   "coingeckoId": "wrapped-steth",
   "category": "ethereum",
-  "coinSourcePrefix": "axelar"
+  "coinSourcePrefix": "axelar",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/axlWSTETH.png"
+  }
 }

@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "wormETH",
   "minCoinDenom": "nweth",
-  "pngSrc": "https://assets.coingecko.com/coins/images/32882/large/WETH_%281%29.png",
   "type": "IBC",
   "exponent": "8",
   "cosmosDenom": "ibc/4442A8E0D487A49E76EA6606F5DADCF8D0DBDD8499112340C964970DB745EDA2",
@@ -25,5 +24,8 @@
   ],
   "coingeckoId": "weth",
   "category": "ethereum",
-  "coinSourcePrefix": "wormhole"
+  "coinSourcePrefix": "wormhole",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/wormETH.png"
+  }
 }

@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "kavaUSDT",
   "minCoinDenom": "erc20/tether/usdt",
-  "pngSrc": "https://assets.coingecko.com/coins/images/325/small/Tether.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5",
@@ -19,5 +18,8 @@
   "hideFromTestnet": false,
   "coingeckoId": "tether",
   "category": "stablecoin",
-  "coinSourcePrefix": "kava"
+  "coinSourcePrefix": "kava",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/kavaUSDT.png"
+  }
 }

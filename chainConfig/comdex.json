@@ -13,7 +13,7 @@
     {
       "chainId": "comdex-1",
       "chainName": "Comdex",
-      "identifier": "Comdex",
+      "identifier": "comdex",
       "clientId": "07-tendermint-79",
       "rest": [
         "https://rest.comdex.one",
@@ -47,7 +47,12 @@
         "jsonRPC": ["https://rpc.comdex.one"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/comdex/txs"
+      "explorerTxUrl": "https://www.mintscan.io/comdex/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/comdex.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/comdex.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/chain.json"
     }
   ]
 }

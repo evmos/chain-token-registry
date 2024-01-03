@@ -12,7 +12,7 @@
   "configurations": [
     {
       "chainId": "axelar-dojo-1",
-      "identifier": "Axelar",
+      "identifier": "axelar",
       "chainName": "Axelar",
       "clientId": "07-tendermint-69",
       "rest": [
@@ -49,7 +49,12 @@
         "jsonRPC": ["https://axelar-mainnet-rpc.allthatnode.com:26657"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/axelar/txs"
+      "explorerTxUrl": "https://www.mintscan.io/axelar/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/axelar.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/axelar.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/chain.json"
     }
   ]
 }

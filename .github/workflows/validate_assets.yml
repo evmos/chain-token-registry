@@ -1,0 +1,15 @@
+on:
+  pull_request:
+    branches:
+      - main
+name: Pull request workflow
+jobs:
+  validate_assetlists:
+    name: Validate Assets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Validate assets
+        run: ./validate-assets.sh

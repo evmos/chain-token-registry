@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "gDAI",
   "minCoinDenom": "dai-wei",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gdai.png",
   "type": "ERC-20",
   "exponent": "18",
   "cosmosDenom": "ibc/F96A7F81E8F82E4EE81F94D507CD257319EFB70FE46E23B4953F63B62E855603",
@@ -19,5 +18,8 @@
   "hideFromTestnet": true,
   "coingeckoId": "dai",
   "category": "stablecoin",
-  "coinSourcePrefix": "gravity"
+  "coinSourcePrefix": "gravity",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/gDAI.png"
+  }
 }

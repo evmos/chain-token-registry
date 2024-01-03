@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "USDC",
   "minCoinDenom": "uusdc",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/35357FE55D81D88054E135529BB2AEB1BB20D207292775A19BD82D83F27BE9B4",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "usd-coin",
   "category": "cosmos",
-  "coinSourcePrefix": "noble"
+  "coinSourcePrefix": "noble",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/USDC.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/USDC.svg"
+  }
 }

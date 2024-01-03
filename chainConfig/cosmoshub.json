@@ -52,7 +52,12 @@
         "jsonRPC": ["https://cosmoshub-rpc.stakely.io/"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/cosmos/txs"
+      "explorerTxUrl": "https://www.mintscan.io/cosmos/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/cosmoshub.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/cosmoshub.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/chain.json"
     }
   ]
 }

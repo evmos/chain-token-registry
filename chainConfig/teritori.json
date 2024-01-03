@@ -13,7 +13,7 @@
     {
       "chainId": "teritori-1",
       "chainName": "Teritori",
-      "identifier": "Teritori",
+      "identifier": "teritori",
       "clientId": "07-tendermint-89",
       "rest": [
         "https://teritori-api.lavenderfive.com:443",
@@ -44,7 +44,12 @@
         "jsonRPC": ["https://rpc.mainnet.teritori.com"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/teritori/txs"
+      "explorerTxUrl": "https://www.mintscan.io/teritori/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/teritori.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/teritori.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/chain.json"
     }
   ]
 }

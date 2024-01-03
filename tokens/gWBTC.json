@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "gWBTC",
   "minCoinDenom": "satoshi",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gwbtc.png",
   "type": "ERC-20",
   "exponent": "8",
   "cosmosDenom": "ibc/350B6DC0FF48E3BDB856F40A8259909E484259ED452B3F4F39A0FEF874F30F61",
@@ -19,5 +18,8 @@
   "hideFromTestnet": true,
   "coingeckoId": "wrapped-bitcoin",
   "category": "bitcoin",
-  "coinSourcePrefix": "gravity"
+  "coinSourcePrefix": "gravity",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/gWBTC.png"
+  }
 }

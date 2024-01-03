@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "qOSMO",
   "minCoinDenom": "uqosmo",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/6230C2923C20C318C1002CE04856118621FE2A220F99EBA0EC2066D5DDFF2152",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "",
   "category": "cosmos",
-  "coinSourcePrefix": "quick"
+  "coinSourcePrefix": "quick",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/qOSMO.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/qOSMO.svg"
+  }
 }

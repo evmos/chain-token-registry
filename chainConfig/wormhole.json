@@ -39,7 +39,12 @@
         "jsonRPC": ["https://wormchain-rpc.quickapi.com:443"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://bigdipper.live/wormhole/transactions"
+      "explorerTxUrl": "https://bigdipper.live/wormhole/transactions",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/wormhole.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/wormhole.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/chain.json"
     }
   ]
 }

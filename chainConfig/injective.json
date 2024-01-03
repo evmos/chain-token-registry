@@ -40,7 +40,12 @@
         "jsonRPC": ["https://tm.injective.network"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/injective/txs"
+      "explorerTxUrl": "https://www.mintscan.io/injective/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/injective.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/injective.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/chain.json"
     }
   ]
 }

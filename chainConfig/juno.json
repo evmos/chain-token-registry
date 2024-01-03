@@ -13,7 +13,7 @@
     {
       "chainId": "juno-1",
       "chainName": "Juno",
-      "identifier": "Juno",
+      "identifier": "juno",
       "clientId": "07-tendermint-14",
       "rest": [
         "https://lcd-juno.itastakers.com",
@@ -47,7 +47,12 @@
         "jsonRPC": ["https://rpc-juno.whispernode.com"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/juno/txs"
+      "explorerTxUrl": "https://www.mintscan.io/juno/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/juno.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/juno.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/chain.json"
     }
   ]
 }
