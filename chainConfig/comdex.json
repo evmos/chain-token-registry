@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.chain.json",
   "prefix": "comdex",
   "gasPriceStep": {
     "low": "0.005",

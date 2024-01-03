@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "stJUNO",
   "minCoinDenom": "stujuno",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg",

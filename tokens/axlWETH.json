@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "axlWETH",
   "minCoinDenom": "weth-wei",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axlweth.svg",

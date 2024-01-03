@@ -1,7 +1,7 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "axlWSTETH",
   "minCoinDenom": "wsteth-wei",
-  "imgSrc": "https://assets.coingecko.com/coins/images/18834/large/wstETH.png",
   "pngSrc": "https://assets.coingecko.com/coins/images/18834/large/wstETH.png",
   "type": "IBC",
   "exponent": "18",

@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "EVMOS",
   "minCoinDenom": "EVMOS",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",

@@ -1,24 +1,24 @@
 {
-    "coinDenom": "stEVMOS",
-    "minCoinDenom": "staevmos",
-    "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
-    "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
-    "type": "IBC",
-    "exponent": "18",
-    "cosmosDenom": "ibc/C49FDA9CB980D813492E2DFFF255B01C46E629C73B2B468131F6FE6E14F55754",
-    "description": "Staking derivative by Stride",
-    "name": "Stride Staked Evmos",
-    "tokenRepresentation": "EVMOS",
-    "channel": "channel-25",
-    "isEnabled": true,
-    "erc20Address": "0x2C68D1d6aB986Ff4640b51e1F14C716a076E44C4",
-    "ibc": {
-      "sourceDenom": "staevmos",
-      "source": "Stride"
-    },
-    "hideFromTestnet": false,
-    "coingeckoId": "stride-staked-evmos",
-    "category": "cosmos",
-    "coinSourcePrefix": "stride"
-  }
-  
+  "$schema": "../schema.token.json",
+  "coinDenom": "stEVMOS",
+  "minCoinDenom": "staevmos",
+  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
+  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
+  "type": "IBC",
+  "exponent": "18",
+  "cosmosDenom": "ibc/C49FDA9CB980D813492E2DFFF255B01C46E629C73B2B468131F6FE6E14F55754",
+  "description": "Staking derivative by Stride",
+  "name": "Stride Staked Evmos",
+  "tokenRepresentation": "EVMOS",
+  "channel": "channel-25",
+  "isEnabled": true,
+  "erc20Address": "0x2C68D1d6aB986Ff4640b51e1F14C716a076E44C4",
+  "ibc": {
+    "sourceDenom": "staevmos",
+    "source": "Stride"
+  },
+  "hideFromTestnet": false,
+  "coingeckoId": "stride-staked-evmos",
+  "category": "cosmos",
+  "coinSourcePrefix": "stride"
+}

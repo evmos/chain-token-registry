@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "qATOM",
   "minCoinDenom": "uqatom",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.svg",

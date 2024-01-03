@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "CMST",
   "minCoinDenom": "ucmst",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg",

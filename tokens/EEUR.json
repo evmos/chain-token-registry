@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "EEUR",
   "minCoinDenom": "eeur",
   "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg",

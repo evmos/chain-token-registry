@@ -1,7 +1,8 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "REGEN",
   "minCoinDenom": "uregen",
-  "imgSrc": "",
+
   "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png",
   "type": "IBC",
   "exponent": "6",

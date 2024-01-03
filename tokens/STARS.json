@@ -1,7 +1,7 @@
 {
+  "$schema": "../schema.token.json",
   "coinDenom": "STARS",
   "minCoinDenom": "ustars",
-  "imgSrc": "",
   "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
   "type": "IBC",
   "exponent": "6",

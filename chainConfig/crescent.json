@@ -1,50 +1,50 @@
 {
-    "prefix": "cre",
-    "gasPriceStep": {
-      "low": "0.01",
-      "average": "0.025",
-      "high": "0.03"
-    },
-    "bip44": {
-      "coinType": "118"
-    },
-    "configurations": [
-      {
-        "chainId": "crescent-1",
-        "chainName": "Crescent Network",
-        "identifier": "Crescent",
-        "clientId": "07-tendermint-38",
-        "rest": [
-          "https://mainnet.crescent.network:1317",
-          "https://api-crescent.pupmos.network",
-          "https://crescent-api.polkachu.com",
-          "https://crescent.rest.stakin-nodes.com",
-          "https://crescent-mainnet-lcd.autostake.net:443"
-        ],
-        "jrpc": [
-          "https://mainnet.crescent.network:26657",
-          "https://crescent-rpc.polkachu.com",
-          "https://rpc-crescent.pupmos.network",
-          "https://crescent.rpc.stakin-nodes.com",
-          "https://crescent-mainnet-rpc.autostake.net:443"
-        ],
-        "rpc": [""],
-        "currencies": [
-          {
-            "coinDenom": "CRE",
-            "coinMinDenom": "ucre",
-            "coinDecimals": "6"
-          }
-        ],
-        "source": {
-          "sourceChannel": "channel-7",
-          "sourceIBCDenomToEvmos": "ibc/73E97EB411B29C6F989C35D277D1A7FC65083572F102AC6BD101884EE9FB2C9F",
-          "destinationChannel": "channel-11",
-          "jsonRPC": ["https://mainnet.crescent.network:26657/"]
-        },
-        "configurationType": "mainnet",
-        "explorerTxUrl": "https://www.mintscan.io/crescent/txs"
-      }
-    ]
-  }
-  
+  "$schema": "../schema.chain.json",
+  "prefix": "cre",
+  "gasPriceStep": {
+    "low": "0.01",
+    "average": "0.025",
+    "high": "0.03"
+  },
+  "bip44": {
+    "coinType": "118"
+  },
+  "configurations": [
+    {
+      "chainId": "crescent-1",
+      "chainName": "Crescent Network",
+      "identifier": "Crescent",
+      "clientId": "07-tendermint-38",
+      "rest": [
+        "https://mainnet.crescent.network:1317",
+        "https://api-crescent.pupmos.network",
+        "https://crescent-api.polkachu.com",
+        "https://crescent.rest.stakin-nodes.com",
+        "https://crescent-mainnet-lcd.autostake.net:443"
+      ],
+      "jrpc": [
+        "https://mainnet.crescent.network:26657",
+        "https://crescent-rpc.polkachu.com",
+        "https://rpc-crescent.pupmos.network",
+        "https://crescent.rpc.stakin-nodes.com",
+        "https://crescent-mainnet-rpc.autostake.net:443"
+      ],
+      "rpc": [""],
+      "currencies": [
+        {
+          "coinDenom": "CRE",
+          "coinMinDenom": "ucre",
+          "coinDecimals": "6"
+        }
+      ],
+      "source": {
+        "sourceChannel": "channel-7",
+        "sourceIBCDenomToEvmos": "ibc/73E97EB411B29C6F989C35D277D1A7FC65083572F102AC6BD101884EE9FB2C9F",
+        "destinationChannel": "channel-11",
+        "jsonRPC": ["https://mainnet.crescent.network:26657/"]
+      },
+      "configurationType": "mainnet",
+      "explorerTxUrl": "https://www.mintscan.io/crescent/txs"
+    }
+  ]
+}

@@ -3,11 +3,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Chain Registry via Evmos Governance",
   "type": "object",
-  "required": [
-    "gasPriceStep",
-    "prefix",
-    "bip44"
-  ],
+  "required": ["gasPriceStep", "prefix", "bip44"],
   "properties": {
     "prefix": {
       "type": "string",
@@ -15,11 +11,7 @@
     },
     "gasPriceStep": {
       "type": "object",
-      "required": [
-        "low",
-        "average",
-        "high"
-      ],
+      "required": ["low", "average", "high"],
       "properties": {
         "low": {
           "type": "string",
@@ -38,11 +30,7 @@
     "feeMarket": {
       "type": "object",
       "description": "Only applicable to EVMOS",
-      "required": [
-        "gas",
-        "amount",
-        "convert"
-      ],
+      "required": ["gas", "amount", "convert"],
       "properties": {
         "gas": {
           "type": "string",
@@ -60,9 +48,7 @@
     },
     "bip44": {
       "type": "object",
-      "required": [
-        "coinType"
-      ],
+      "required": ["coinType"],
       "properties": {
         "coinType": {
           "type": "string",
@@ -114,7 +100,7 @@
             "items": {
               "type": "string"
             },
-            "minItems": 3,
+            "minItems": 2,
             "uniqueItems": true
           },
           "jrpc": {
@@ -122,7 +108,7 @@
             "items": {
               "type": "string"
             },
-            "minItems": 3,
+            "minItems": 2,
             "uniqueItems": true
           },
           "web3": {
@@ -187,17 +173,11 @@
             "description": "Explorer is only necessary for EVMOS network. All other Cosmos chains do not require this array object to be filled out",
             "items": {
               "type": "object",
-              "required": [
-                "link",
-                "type"
-              ],
+              "required": ["link", "type"],
               "properties": {
                 "type": {
                   "type": "string",
-                  "enum": [
-                    "evm",
-                    "cosmos"
-                  ],
+                  "enum": ["evm", "cosmos"],
                   "description": "Add the correct explorer data type"
                 },
                 "link": {
@@ -209,10 +189,7 @@
           },
           "configurationType": {
             "type": "string",
-            "enum": [
-              "mainnet",
-              "testnet"
-            ],
+            "enum": ["mainnet", "testnet"],
             "description": "Must select either mainnet or testnet"
           },
           "explorerTxUrl": {

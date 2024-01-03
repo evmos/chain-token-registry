@@ -1,10 +1,11 @@
 {
+  "$schema": "../schema.chain.json",
   "prefix": "inj",
   "gasPriceStep": {
-		"low": "100000000000",
-		"average": "200000000000",
-		"high": "30000000000000"
-	},
+    "low": "100000000000",
+    "average": "200000000000",
+    "high": "30000000000000"
+  },
   "bip44": {
     "coinType": "60"
   },
@@ -28,7 +29,7 @@
       "currencies": [
         {
           "coinDenom": "INJ",
-          "coinMinimalDenom": "inj",
+          "coinMinDenom": "inj",
           "coinDecimals": "18"
         }
       ],

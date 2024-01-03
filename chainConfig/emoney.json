@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.chain.json",
   "prefix": "emoney",
   "gasPriceStep": {
     "low": "0.005",
@@ -32,9 +33,7 @@
         "https://rpc-emoney.goldenratiostaking.net",
         "https://rpc.emoney.bh.rocks"
       ],
-      "rpc": [
-        "https://rpc-emoney.keplr.app"
-      ],
+      "rpc": ["https://rpc-emoney.keplr.app"],
       "currencies": [
         {
           "coinDenom": "emd",
@@ -46,9 +45,7 @@
         "sourceChannel": "channel-28",
         "sourceIBCDenomToEvmos": "ibc/10E2FD6A073F2746143FFF978B61C3813B773CBC0647E850A4A562FFFA8F9732",
         "destinationChannel": "channel-24",
-        "jsonRPC": [
-          "https://rpc-emoney.keplr.app"
-        ]
+        "jsonRPC": ["https://rpc-emoney.keplr.app"]
       },
       "configurationType": "mainnet",
       "explorerTxUrl": "https://www.mintscan.io/emoney/txs"

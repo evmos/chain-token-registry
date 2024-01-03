@@ -1,7 +1,7 @@
 {
-  "coinDenom": "SOL",
+  "$schema": "../schema.token.json",
+  "coinDenom": "wormSOL",
   "minCoinDenom": "nsol",
-  "imgSrc": "https://assets.coingecko.com/coins/images/4128/large/solana.png",
   "pngSrc": "https://assets.coingecko.com/coins/images/4128/large/solana.png",
   "type": "IBC",
   "exponent": "8",
