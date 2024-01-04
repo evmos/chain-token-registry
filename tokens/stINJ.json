@@ -13,7 +13,7 @@
   "erc20Address": "0x786744d8B40ee154FA4a74153c4d33dF09aBf015",
   "ibc": {
     "sourceDenom": "stinj",
-    "source": "Stride"
+    "source": "stride"
   },
   "hideFromTestnet": false,
   "coingeckoId": "",

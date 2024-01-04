@@ -13,7 +13,7 @@
   "erc20Address": "0xecEEEfCEE421D8062EF8d6b4D814efe4dc898265",
   "ibc": {
     "sourceDenom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    "source": "Gravity"
+    "source": "gravitybridge"
   },
   "hideFromTestnet": true,
   "coingeckoId": "tether",

@@ -13,7 +13,7 @@
   "erc20Address": "0xC4CcDf91b810a61cCB48b35ccCc066C63bf94B4F",
   "ibc": {
     "sourceDenom": "usdc",
-    "source": "Wormhole"
+    "source": "wormhole"
   },
   "hideFromTestnet": false,
   "handledByExternalUI": [

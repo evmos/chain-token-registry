@@ -13,7 +13,7 @@
   "erc20Address": "0xF0965c8f0755CF080a61C91EDd6707F0532c8fE7",
   "ibc": {
     "sourceDenom": "ucmdx",
-    "source": "Comdex"
+    "source": "comdex"
   },
   "hideFromTestnet": false,
   "coingeckoId": "comdex",

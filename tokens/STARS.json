@@ -13,7 +13,7 @@
   "erc20Address": "0x5aD523d94Efb56C400941eb6F34393b84c75ba39",
   "ibc": {
     "sourceDenom": "ustars",
-    "source": "Stargaze"
+    "source": "stargaze"
   },
   "hideFromTestnet": false,
   "coingeckoId": "stargaze",

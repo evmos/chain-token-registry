@@ -13,7 +13,7 @@
   "erc20Address": "0x15C3Eb3B621d1Bff62CbA1c9536B7c1AE9149b57",
   "ibc": {
     "sourceDenom": "uusdc",
-    "source": "Axelar"
+    "source": "axelar"
   },
   "hideFromTestnet": false,
   "handledByExternalUI": [

@@ -13,7 +13,7 @@
   "erc20Address": "0x5db67696C3c088DfBf588d3dd849f44266ff0ffa",
   "ibc": {
     "sourceDenom": "eeur",
-    "source": "Emoney"
+    "source": "emoney"
   },
   "hideFromTestnet": false,
   "coingeckoId": "e-money-eur",

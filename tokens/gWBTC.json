@@ -13,7 +13,7 @@
   "erc20Address": "0x1D54EcB8583Ca25895c512A8308389fFD581F9c9",
   "ibc": {
     "sourceDenom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-    "source": "Gravity"
+    "source": "gravitybridge"
   },
   "hideFromTestnet": true,
   "coingeckoId": "wrapped-bitcoin",

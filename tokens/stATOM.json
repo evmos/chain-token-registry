@@ -13,7 +13,7 @@
   "erc20Address": "0xB5124FA2b2cF92B2D469b249433BA1c96BDF536D",
   "ibc": {
     "sourceDenom": "stuatom",
-    "source": "Stride"
+    "source": "stride"
   },
   "hideFromTestnet": false,
   "coingeckoId": "stride-staked-atom",

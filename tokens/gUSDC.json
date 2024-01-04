@@ -13,7 +13,7 @@
   "erc20Address": "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
   "ibc": {
     "sourceDenom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "source": "Gravity"
+    "source": "gravitybridge"
   },
   "hideFromTestnet": true,
   "coingeckoId": "usd-coin",

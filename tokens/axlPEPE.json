@@ -13,7 +13,7 @@
   "erc20Address": "0xc76A204AEA61a68a3B1f97B8E70286CD42B020D2",
   "ibc": {
     "sourceDenom": "axlpepe",
-    "source": "Axelar"
+    "source": "axelar"
   },
   "hideFromTestnet": true,
   "handledByExternalUI": [

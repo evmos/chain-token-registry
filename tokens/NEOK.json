@@ -13,7 +13,7 @@
   "erc20Address": "0x655ecB57432CC1370f65e5dc2309588b71b473A9",
   "ibc": {
     "sourceDenom": "neok",
-    "source": "Evmos"
+    "source": "evmos"
   },
   "hideFromTestnet": false,
   "coingeckoId": "",

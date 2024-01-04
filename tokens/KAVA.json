@@ -13,7 +13,7 @@
   "erc20Address": "0x6196AEe47D983E9b20610A3e816935bFfA8d17D1",
   "ibc": {
     "sourceDenom": "ukava",
-    "source": "Kava"
+    "source": "kava"
   },
   "hideFromTestnet": false,
   "coingeckoId": "kava",

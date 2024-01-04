@@ -13,7 +13,7 @@
   "erc20Address": "0xFA3C22C069B9556A4B2f7EcE1Ee3B467909f4864",
   "ibc": {
     "sourceDenom": "uosmo",
-    "source": "Osmosis"
+    "source": "osmosis"
   },
   "hideFromTestnet": false,
   "coingeckoId": "osmosis",

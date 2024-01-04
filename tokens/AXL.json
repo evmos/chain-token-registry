@@ -13,7 +13,7 @@
   "erc20Address": "0x94c23eE865E3c963A56263d0ce2CBF5C6cE7ce2d",
   "ibc": {
     "sourceDenom": "uaxl",
-    "source": "Axelar"
+    "source": "axelar"
   },
   "hideFromTestnet": false,
   "coingeckoId": "axelar",
