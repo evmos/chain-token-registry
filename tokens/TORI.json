@@ -13,7 +13,7 @@
   "erc20Address": "0x205CF44075E77A3543abC690437F3b2819bc450a",
   "ibc": {
     "sourceDenom": "utori",
-    "source": "Teritori"
+    "source": "teritori"
   },
   "hideFromTestnet": true,
   "coingeckoId": "teritori",

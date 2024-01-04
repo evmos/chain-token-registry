@@ -13,7 +13,7 @@
   "erc20Address": "0xD32eB974468ed767338533842D2D4Cc90B9BAb46",
   "ibc": {
     "sourceDenom": "stuosmo",
-    "source": "Stride"
+    "source": "stride"
   },
   "hideFromTestnet": false,
   "coingeckoId": "stride-staked-osmo",

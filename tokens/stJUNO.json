@@ -13,7 +13,7 @@
   "erc20Address": "0xc71aAf8e486e3F33841BB56Ca3FD2aC3fa8D29a8",
   "ibc": {
     "sourceDenom": "stujuno",
-    "source": "Stride"
+    "source": "stride"
   },
   "hideFromTestnet": false,
   "coingeckoId": "stride-staked-juno",

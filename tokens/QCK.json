@@ -13,7 +13,7 @@
   "erc20Address": "0xf55454383cEEFB1B5e889E59542352B1b928707d",
   "ibc": {
     "sourceDenom": "uqck",
-    "source": "Quicksilver"
+    "source": "quicksilver"
   },
   "hideFromTestnet": false,
   "coingeckoId": "quicksilver",
