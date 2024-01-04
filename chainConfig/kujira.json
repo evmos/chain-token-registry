@@ -13,7 +13,7 @@
     {
       "chainId": "kaiyo-1",
       "chainName": "Kujira",
-      "identifier": "Kujira",
+      "identifier": "kujira",
       "clientId": "07-tendermint-53",
       "rest": [
         "https://lcd.kaiyo.kujira.setten.io",
@@ -59,7 +59,12 @@
         "jsonRPC": ["https://rpc.kaiyo.kujira.setten.io"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://finder.kujira.network/kaiyo-1/tx"
+      "explorerTxUrl": "https://finder.kujira.network/kaiyo-1/tx",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/kujira.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/kujira.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/chain.json"
     }
   ]
 }

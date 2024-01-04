@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "EEUR",
   "minCoinDenom": "eeur",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/AB40F54CC4BAF9C4FDB5CB5BDFC4D6CDB475BFE84BCEAF4F72F02EDAEED60F05",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "e-money-eur",
   "category": "stablecoin",
-  "coinSourcePrefix": "emoney"
+  "coinSourcePrefix": "emoney",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/EEUR.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/EEUR.svg"
+  }
 }

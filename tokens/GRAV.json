@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "GRAV",
   "minCoinDenom": "ugraviton",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/7F0C2CB6E79CC36D29DA7592899F98E3BEFD2CF77A94340C317032A78812393D",
@@ -20,5 +18,9 @@
   "hideFromTestnet": true,
   "coingeckoId": "graviton",
   "category": "cosmos",
-  "coinSourcePrefix": "gravity"
+  "coinSourcePrefix": "gravity",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/GRAV.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/GRAV.svg"
+  }
 }

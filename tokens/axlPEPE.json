@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "axlPEPE",
   "minCoinDenom": "pepe-wei",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
   "type": "IBC",
   "exponent": "18",
   "cosmosDenom": "ibc/26E6508A1757E12B15A087E951F5D35E73CF036F0D97BC809E1598D1DD870BED",
@@ -26,5 +24,9 @@
   ],
   "coingeckoId": "pepe",
   "category": "ethereum",
-  "coinSourcePrefix": "axelar"
+  "coinSourcePrefix": "axelar",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/axlPEPE.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/axlPEPE.svg"
+  }
 }

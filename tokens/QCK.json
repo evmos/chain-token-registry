@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "QCK",
   "minCoinDenom": "uqck",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/FCA18B0C0D1236E203D1AE09634A3F33E8AC31707CD59A74A437A903231C653C",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "quicksilver",
   "category": "cosmos",
-  "coinSourcePrefix": "quick"
+  "coinSourcePrefix": "quick",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/QCK.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/QCK.svg"
+  }
 }

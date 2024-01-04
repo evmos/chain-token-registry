@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "stEVMOS",
   "minCoinDenom": "staevmos",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
   "type": "IBC",
   "exponent": "18",
   "cosmosDenom": "ibc/C49FDA9CB980D813492E2DFFF255B01C46E629C73B2B468131F6FE6E14F55754",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "stride-staked-evmos",
   "category": "cosmos",
-  "coinSourcePrefix": "stride"
+  "coinSourcePrefix": "stride",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/stEVMOS.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/stEVMOS.svg"
+  }
 }

@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "axlRETH",
   "minCoinDenom": "reth-wei",
-  "pngSrc": "https://assets.coingecko.com/coins/images/20764/large/reth.png",
   "type": "IBC",
   "exponent": "18",
   "cosmosDenom": "ibc/6A3538834873D16F00D0268B295A8D6FD9B005952787AA14726D0013A51042AC",
@@ -25,5 +24,8 @@
   ],
   "coingeckoId": "rocket-pool-eth",
   "category": "ethereum",
-  "coinSourcePrefix": "axelar"
+  "coinSourcePrefix": "axelar",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/axlRETH.png"
+  }
 }

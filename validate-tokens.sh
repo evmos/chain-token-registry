@@ -20,5 +20,6 @@ jq '.coinDenom' ./tokens/*.json | sort | uniq -c | while read count value
 do
   if [ "$count" -gt 1 ]; then
     echo "Duplicate found: $value"
+    exit 1
   fi
 done

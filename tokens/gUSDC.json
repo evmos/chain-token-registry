@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "gUSDC",
   "minCoinDenom": "uusdc",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdc.png",
   "type": "ERC-20",
   "exponent": "6",
   "cosmosDenom": "ibc/693989F95CF3279ADC113A6EF21B02A51EC054C95A9083F2E290126668149433",
@@ -19,5 +18,8 @@
   "hideFromTestnet": true,
   "coingeckoId": "usd-coin",
   "category": "stablecoin",
-  "coinSourcePrefix": "gravity"
+  "coinSourcePrefix": "gravity",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/gUSDC.png"
+  }
 }

@@ -13,7 +13,7 @@
     {
       "chainId": "regen-1",
       "chainName": "Regen Network",
-      "identifier": "Regen",
+      "identifier": "regen",
       "clientId": "07-tendermint-67",
       "rest": [
         "https://rest-regen.ecostake.com",
@@ -43,7 +43,12 @@
         "jsonRPC": ["https://rpc-regen.ecostake.com"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/regen/txs"
+      "explorerTxUrl": "https://www.mintscan.io/regen/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/regen.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/regen.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/chain.json"
     }
   ]
 }

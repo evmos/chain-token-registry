@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "JUNO",
   "minCoinDenom": "ujuno",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/448C1061CE97D86CC5E86374CD914870FB8EBA16C58661B5F1D3F46729A2422D",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "juno-network",
   "category": "cosmos",
-  "coinSourcePrefix": "juno"
+  "coinSourcePrefix": "juno",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/JUNO.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/JUNO.svg"
+  }
 }

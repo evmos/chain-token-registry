@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "stINJ",
   "minCoinDenom": "stinj",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
   "type": "IBC",
   "exponent": "18",
   "cosmosDenom": "ibc/4FCDD6D71CAB4F6BBEAB781D036977E1158075297671345055BC342D46819640",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "",
   "category": "cosmos",
-  "coinSourcePrefix": "stride"
+  "coinSourcePrefix": "stride",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/stINJ.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/stINJ.svg"
+  }
 }

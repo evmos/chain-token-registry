@@ -13,7 +13,7 @@
     {
       "chainId": "stride-1",
       "chainName": "Stride",
-      "identifier": "Stride",
+      "identifier": "stride",
       "rpc": ["https://stride-rpc.polkachu.com:443"],
       "rest": [
         "https://stride-api.polkachu.com",
@@ -52,7 +52,12 @@
         "jsonRPC": ["https://stride-rpc.polkachu.com:443"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/stride/txs"
+      "explorerTxUrl": "https://www.mintscan.io/stride/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/stride.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/stride.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/chain.json"
     }
   ]
 }

@@ -13,7 +13,7 @@
     {
       "chainId": "stargaze-1",
       "chainName": "Stargaze",
-      "identifier": "Stargaze",
+      "identifier": "stargaze",
       "clientId": "07-tendermint-41",
       "rest": [
         "https://rest.stargaze-apis.com",
@@ -50,7 +50,12 @@
         "jsonRPC": ["stargaze-grpc.polkachu.com:13790"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/stargaze/txs"
+      "explorerTxUrl": "https://www.mintscan.io/stargaze/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/stargaze.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/stargaze.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/chain.json"
     }
   ]
 }

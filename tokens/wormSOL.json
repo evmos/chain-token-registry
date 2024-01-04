@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "wormSOL",
   "minCoinDenom": "nsol",
-  "pngSrc": "https://assets.coingecko.com/coins/images/4128/large/solana.png",
   "type": "IBC",
   "exponent": "8",
   "cosmosDenom": "ibc/4443218F584A7AB2DFBCF93872D6E5B6967A11C53515DDF45A2CF387C54BD73A",
@@ -25,5 +24,8 @@
   ],
   "coingeckoId": "solana",
   "category": "solana",
-  "coinSourcePrefix": "wormhole"
+  "coinSourcePrefix": "wormhole",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/wormSOL.png"
+  }
 }

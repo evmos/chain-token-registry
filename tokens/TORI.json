@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "TORI",
   "minCoinDenom": "utori",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/tori.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/18D5C3CDDF1DEE108CE4BF0A7E0262D94D11AB06A37F68EA38F70CC92C5D894F",
@@ -20,5 +18,8 @@
   "hideFromTestnet": true,
   "coingeckoId": "teritori",
   "category": "cosmos",
-  "coinSourcePrefix": "tori"
+  "coinSourcePrefix": "tori",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/TORI.png"
+  }
 }

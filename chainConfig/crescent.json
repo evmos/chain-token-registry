@@ -13,7 +13,7 @@
     {
       "chainId": "crescent-1",
       "chainName": "Crescent Network",
-      "identifier": "Crescent",
+      "identifier": "crescent",
       "clientId": "07-tendermint-38",
       "rest": [
         "https://mainnet.crescent.network:1317",
@@ -44,7 +44,12 @@
         "jsonRPC": ["https://mainnet.crescent.network:26657/"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/crescent/txs"
+      "explorerTxUrl": "https://www.mintscan.io/crescent/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/crescent.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/crescent.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/chain.json"
     }
   ]
 }

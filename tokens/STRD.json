@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "STRD",
   "minCoinDenom": "ustrd",
-  "imgSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/21C0C3E238D48E370841635ADC3322F5D3D26342679102D5865DA8A56BD9524E",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "stride",
   "category": "cosmos",
-  "coinSourcePrefix": "stride"
+  "coinSourcePrefix": "stride",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/STRD.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/STRD.svg"
+  }
 }

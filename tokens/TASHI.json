@@ -2,8 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "TASHI",
   "minCoinDenom": "tashi",
-  "imgSrc": "https://app.tashi.finance/svgs/tashi-icon.svg",
-  "pngSrc": "https://app.tashi.finance/pngs/tashi-icon.png",
   "type": "IBC",
   "exponent": "18",
   "cosmosDenom": "erc20/0x98fAFD9F714CE0B4bB2870527076F2F314aAed82",
@@ -20,5 +18,9 @@
   "hideFromTestnet": false,
   "coingeckoId": "",
   "category": "cosmos",
-  "coinSourcePrefix": "evmos"
+  "coinSourcePrefix": "evmos",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/TASHI.png",
+    "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/TASHI.svg"
+  }
 }

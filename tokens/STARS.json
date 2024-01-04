@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "STARS",
   "minCoinDenom": "ustars",
-  "pngSrc": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
   "type": "IBC",
   "exponent": "6",
   "cosmosDenom": "ibc/7564B7F838579DD4517A225978C623504F852A6D0FF7984AFB28F10D36022BE8",
@@ -19,5 +18,8 @@
   "hideFromTestnet": false,
   "coingeckoId": "stargaze",
   "category": "cosmos",
-  "coinSourcePrefix": "stars"
+  "coinSourcePrefix": "stars",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/STARS.png"
+  }
 }

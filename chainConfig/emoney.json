@@ -13,7 +13,7 @@
     {
       "chainId": "emoney-3",
       "chainName": "EMoney",
-      "identifier": "Emoney",
+      "identifier": "emoney",
       "clientId": "07-tendermint-75",
       "rest": [
         "https://lcd-emoney.keplr.app",
@@ -48,7 +48,12 @@
         "jsonRPC": ["https://rpc-emoney.keplr.app"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/emoney/txs"
+      "explorerTxUrl": "https://www.mintscan.io/emoney/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/emoney.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/emoney.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/chain.json"
     }
   ]
 }

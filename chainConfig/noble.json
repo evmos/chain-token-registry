@@ -38,7 +38,12 @@
         "jsonRPC": ["https://noble-rpc.polkachu.com:443"]
       },
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://www.mintscan.io/noble/txs"
+      "explorerTxUrl": "https://www.mintscan.io/noble/txs",
+      "img": {
+        "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/noble.svg",
+        "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/noble.png"
+      },
+      "cosmosRegistryUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/chain.json"
     }
   ]
 }

@@ -2,7 +2,6 @@
   "$schema": "../schema.token.json",
   "coinDenom": "wormBTC",
   "minCoinDenom": "nwbtc",
-  "pngSrc": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png",
   "type": "IBC",
   "exponent": "8",
   "cosmosDenom": "ibc/46C5DA1CB61C5BAA8730ABA467ADD58DE0333B075CACE28BC87E64AE8C9CA051",
@@ -25,5 +24,8 @@
   ],
   "coingeckoId": "wrapped-bitcoin",
   "category": "ethereum",
-  "coinSourcePrefix": "wormhole"
+  "coinSourcePrefix": "wormhole",
+  "img": {
+    "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/tokens/wormBTC.png"
+  }
 }
