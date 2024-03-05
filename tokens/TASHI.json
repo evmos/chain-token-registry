@@ -12,7 +12,7 @@
   "isEnabled": true,
   "erc20Address": "0x98fAFD9F714CE0B4bB2870527076F2F314aAed82",
   "ibc": {
-    "sourceDenom": "tashi",
+    "sourceDenom": "erc20/0x98fAFD9F714CE0B4bB2870527076F2F314aAed82",
     "source": "evmos"
   },
   "hideFromTestnet": false,

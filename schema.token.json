@@ -143,6 +143,7 @@
     "ibc",
     "coingeckoId",
     "coinSourcePrefix",
-    "category"
+    "category",
+    "img"
   ]
 }
