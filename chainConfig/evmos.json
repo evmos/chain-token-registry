@@ -2,9 +2,9 @@
   "$schema": "../schema.chain.json",
   "prefix": "evmos",
   "gasPriceStep": {
-    "low": "10000000000",
-    "average": "25000000000",
-    "high": "40000000000"
+    "low": "50000000000",
+    "average": "80000000000",
+    "high": "100000000000"
   },
   "feeMarket": {
     "gas": "350000",
