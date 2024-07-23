@@ -67,7 +67,7 @@
         }
       ],
       "configurationType": "mainnet",
-      "explorerTxUrl": "https://escan.live/tx",
+      "explorerTxUrl": "https://www.mintscan.io/evmos/tx",
       "img": {
         "svg": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/evmos.svg",
         "png": "https://raw.githubusercontent.com/evmos/chain-token-registry/main/assets/chainConfig/evmos.png"
