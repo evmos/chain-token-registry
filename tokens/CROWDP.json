@@ -4,15 +4,15 @@
   "minCoinDenom": "crowdp",
   "type": "IBC",
   "exponent": "18",
-  "cosmosDenom": "erc20/0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f",
+  "cosmosDenom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F",
   "description": "The token of Crowdpunk DAO",
   "name": "Crowdpunk DAO",
   "tokenRepresentation": "CROWDP",
   "channel": "",
   "isEnabled": true,
-  "erc20Address": "0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f",
+  "erc20Address": "0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F",
   "ibc": {
-    "sourceDenom": "erc20/0xfbf4318d24a93753f11d365a6dcf8b830e98ab0f",
+    "sourceDenom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F",
     "source": "evmos"
   },
   "hideFromTestnet": false,
